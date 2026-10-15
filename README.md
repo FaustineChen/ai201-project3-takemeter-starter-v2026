@@ -21,6 +21,9 @@
 >
 > **The rest of this file is your submission.** Fill it in as you go.
 
+device: cpu  (CPU)
+torch:  2.14.1+cpu
+
 ---
 
 <!-- ─────────────────────────────────────────────────────────────────────────
@@ -91,10 +94,29 @@
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** r/stocks
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
+
+I labelled each post by hand using the working definitions below. These are a
+draft; if I adjust them after labelling, I will note the change here.
+
+- `analysis`: makes an argument whose conclusion is supported by a specific,
+  checkable fact. The fact must be concrete enough to verify (for example,
+  "the company's revenue grew this quarter"), but it does not need to include a
+  number or a cited source.
+- `hot_take`: a confident claim with no support offered.
+- `reaction`: an immediate response, observation, or question about something
+  that just happened. Because many posts are very short, a post that clearly
+  ties to a specific moment, price, or event counts as `reaction` when it only
+  states it and draws no conclusion.
+
+Decision order:
+1. Conclusion plus a specific, checkable fact -> `analysis`
+2. Otherwise, an immediate response to a just-happened event -> `reaction`
+3. Otherwise, a confident claim with no support -> `hot_take`
+
 
 **Counts per label:**
 
