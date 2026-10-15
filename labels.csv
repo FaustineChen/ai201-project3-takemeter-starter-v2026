@@ -1,0 +1,829 @@
+text,label,note,
+"Anthropic reports $16.8B in 3Q26, up 50% QoQ, $SMH -2% AH, MoM calculation in Post
+Industry News
+Source: https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1
+
+Financial Times reports that Anthropic told investors it made $16.8B in 3Q26, up 50% from $11.5B in 2Q26, and was profitable on an ""adjusted"" basis. This marks a severe deceleration from 2Q26's Ant's reported 147% 2Q26 QoQ growth.
+
+Average monthly growth implied by quarters in 2Q: ~35%
+
+Average monthly growth implied by quarters in 3Q: 13.1%
+
+If we assume linear growth for Aug/Sep if July's revenue was $5.4B (based on a $65B rev run rate at the end of July), this would mark 3.3% MoM growth for Aug/Sep, giving us an exist September run rate of ~$70B ARR.
+
+In order for Anthropic to hit its goal of $100B ARR by December, it would need growth to re-accelerate to 12.9% MoM for the next 3 months.
+
+In addition, Anthropic appears to be targetting a valuation above $2T, which is about 29.8x 3Q26 annualized revenue. This is ahead of at least $518B of compute commitments over the next decade, about $51.8B a year, or 77% of its current annualized revenue. In addition, ""Adjusted"" profitability has not been defined publicly, but it'll be easier to understand once Anthropic publicly releases their S-1",analysis,,
+"Lots of intellectually dishonest people here that flip flop their positions depending on the data
+
+I¡¦ve seen this play out 10+ times over the past 2 years. It¡¦s always some form of:
+
+High inflation data - ¡§the data is not rigged. Trust the experts. Orange man will fire xyz for reporting the data¡¨
+
+Lower inflation data - data was rigged. Or Trump fired person responsible for collecting data or trump did xyz to get a lower number.",hot_take,Anecdotes,
+"It¡¦s already here. My coworkers say they watch more AI generated shows than real show at this point. They get fed clips of shows on Insta and TikTok that are targeted towards them, and they follow the link to shady sites. One coworker was trying to justify that the writing was really good and was exactly the type of show he was looking for - an apocalyptic series that deals with time travel. Another coworker is watching a romance about an overweight girl whose husband divorces her so she becomes a nanny for a wealthy single dad, and she ends up losing a lot of weight and has to choose between the two dudes. They both said the same thing, the episodes are short (about 10min long) but incredibly gripping and the people are beautiful. And there are different versions that race swap depending on your preferences.",hot_take,Anecdotes,
+"Now comes the fun part. Usually you hike interest rates when the economy is doing really well, but we all know Trump has been cooking the jobs numbers. Crash incoming.",hot_take,,
+"The Gartner report is less a prediction that AI infrastructure demand is collapsing and more a warning that the industry is heading toward major consolidation.
+
+Gartner expects AI infrastructure spending to remain enormous, but argues that too many neocloud providers are spending heavily on rapidly depreciating GPUs without enough differentiation or revenue to generate adequate returns.
+
+Their prediction: more than 80% of neocloud providers will cease operating independently by 2030.
+
+That doesn¡¦t necessarily mean they all disappear. Many could be acquired, merged, restructured or absorbed by larger players.
+
+So the takeaway isn¡¦t ¡§AI infrastructure is going away.¡¨
+
+It¡¦s that we may be entering the shakeout phase: AI compute demand continues growing, but the infrastructure increasingly consolidates around companies with scale, differentiated platforms, stronger balance sheets and sustainable economics.",analysis,ref,
+"Selling short and buying long only lasts so long. It's like holding down the lid of a pressure cooker. The longer you do it the worse it gets.
+
+Same as using strategic oil reserves to contain oil prices. You can only do that for so long before it runs away on you. 286 Mbbl of oil. 3Mbbl draw daily. as they draw it down the risk of structural collapse increases. We only need one more pipeline shut down by the Houthis and we experience a peak oil level of hyperinflation not seen since the 1970s.",hot_take,,
+Actually had that looked at multiple times. House is not positioned in a way to capture enough and the angles of the house and lack of flat spaces make it a nonstarter.,hot_take,,
+"Ball park we have 2.2 trillion rollover of 2, 3, 7, 10, and 30 year.
+
+The 7 and 10 were really low rate periods. 
+
+~40 billion added in interest on existing roll over debt.
+
+And add on over 2 trillion in new issuance. 
+
+Global Market needs to absorb around 4 trillion. Plus add in corporate AI data center build out of 1 trillion for the whole industry if staying on pace.
+
+This size has not been done before. 
+
+If liquidity dries up Feds will have to step in with QE getting this on there balance sheet. They are down to 6.75 trillion from 8.75t post pandemic era. Most of which the Treasury owing the federal reserve. Basic the left hand owing the right hand.",analysis,,
+"Locking in long-dated debt at these yields would be costly, so a heavier tilt toward short-term bills seems likely to keep that average climbing for a while.",hot_take,,
+"it¡¦s not only the math, it¡¦s the decisions. every extra trade is another chance to be wrong about timing, and you only get paid for the ones you got right.
+
+holding means making 1 decision instead of 20. most people are better at the first one than the twentieth.
+
+the honest counterpoint is that selling a loser early can be the right call.
+
+trouble is telling that apart from panic while it¡¦s happening. what¡¦s your usual holding period?",hot_take,,
+"In my opinion, when people say just buy and hold and that frequent trading rarely works, it's less to do with nuances in taxes and mathematical percentages and more that a rando retail is going to very likely just plain suck at trading.
+
+It looks so easy and tempting when looking at a graph, it looks like you can consistently buy low and sell high and do better than just buy and hold.
+
+But actually try it, with real consequential sum of money on the line. A single mistake early on in losing your initial capital or missing on opportunity cost because you sold too early and the stock mooned, and add in psychological effects from stress and fomo, and you end up doing worse than just buy and hold.",hot_take,opinion,
+"For a long time, I assumed the following two scenarios are mathematically equivalent (ignoring transaction fees and assuming only long term capital gains applies):
+- buying a position, holding it for a long time, then selling it for a gain
+- buying a position, selling mid way through then buying it back at the same share price as the sale, then holding it the rest of the way then sell
+
+The reason my intuition said these scenarios should have the identical outcome is because you¡¦ll eventually need to pay taxes on all of the gains anyway, what¡¦s the difference of recognizing a portion of the gains early?
+
+A few days ago, I wanted to check my intuition, so I came up with a thought experiment. For ease of explanation, let¡¦s say capital gains tax is a flat 20%.
+- scenario 1: buy $100 of a stock, it doubles, I hold, then it doubles again, I sell for a total of $400. I pay $60 in tax (20% x $300), so I end up with $340.
+- scenario 2: buy $100 of a stock, it doubles, I sell for a total of $200, pay $20 in tax, then use the remaining $180 to buy it back at the same share price as the sale. It then doubles again, I sell for a total of $360, pay $36 in tax, and end up with $324.
+
+If you repeat this experiment with other tax rates, the two scenarios are identical only when the tax rate is 0% or 100%, and for any other tax rate between these two extremes, scenario 1 comes out ahead.
+
+This result may be intuitive to some, but it wasn¡¦t to me. This really made me appreciate just how much of an uphill battle it would be if you wanted to beat the market by trading.",analysis,inference,
+Yeah both Oracle and OpenAI are the biggest threat to the AI trade which can have a ripple effect and bring everything down. Need to keep an eye on both of them for further hints at whether there is a real problem that is going to cascade or a way for both to mitigate the risk.,hot_take,,
+"For those confused, imagine two Uber drivers who each give a ride where the passenger pays $100 and Uber keeps $30. Driver A tells people, ¡§I made $100 on that ride.¡¨ Driver B says, ¡§I made $70.¡¨ Both took home exactly $70, but Driver A sounds like he¡¦s earning more because he counted the money that went to Uber.
+
+That¡¦s basically OpenAI vs. Anthropic. Many customers buy their AI through Amazon, Google, or Microsoft, who take a cut. Anthropic counts the full amount the customer paid, while OpenAI counts only what it actually gets. Investors tried to bump OpenAI¡¦s number up to match, guessing ~$70B, but OpenAI¡¦s real figure is closer to $50B. Nobody¡¦s lying, just different accounting",analysis,,
+"From what i have learnes from a Journalist is, that if a headline has maybe or a question mark at the end, the answer is always no.",hot_take,experience,
+"When things get tough, the world can rely on Donald Trump to chicken out and roll over.
+
+Just a few days ago he was posting online that Iran is totally looking for a deal once again.
+
+Trump will promise anything to open the strait for a temporary period. He¡¦ll unfreeze Iranian assets, sign something pledging to give them control of the strait or allowing them to enrich uranium. He¡¦ll get on TV and say it¡¦s an awesome deal and he didn¡¦t giveaway anything.
+
+Once oil prices start to stabilize, he¡¦ll attack Iran again or Iran will attack us for breaking the deal.
+
+Rinse and repeat until Trump¡¦s party is voted out of power, and the Democrats take control and make a deal with Iran giving them massive concessions to keep the Strait open. The only way out of this.
+
+Then the Republicans will accuse Democrats of aiding terrorists, Democrats will be voted out of power by angry voters, and the Republicans will go fuck something else up.",hot_take,,
+"It will but only for the short term, this isn't something that couldn't be fundamentally fixed. remote work is still an option for many in the tech industry",hot_take,,
+"Something I think the market has missed completely about the Ukrainian and Iranian conflicts is that theres absolutely no effective solution to the threat posed by drones these days. Even relatively poor countries now have access to cheap precision weapons in huge numbers that no country can fully protect against.
+
+As a result we now see regular strikes on data centers, O&G facilities, global shipping, airports, port infrastructure, bus terminals, hospitals, apartments, malls, etc. In other words, soft targets are largely defenseless against these new, cheap, and prolific weapons.
+
+It's only a matter of time until domestic actors (supported by foreign actors and pure homegrown) in countries around the world are using these weapons to damage/destroy/threaten soft targets. It's not hard at all to put together rudimentary explosives and a couple dozen drones and fly them into, say, giant above ground gasoline storage tanks or port infrastructure in western countries.
+
+And heaven help us when AI proliferation makes this security crisis even worse, sharing knowledge on how to build and plan these attacks to even the dumbest threat actors.
+
+We've entered an unprecedented age of insecurity and the world is utterly unprepared for it",hot_take,,
+"It¡¦s an interesting move for SpaceX to compete directly with the major cell carriers - I had assumed they would try to license out their DTC to the existing networks rather than set up their own. My thought is this means the cell carriers will be eager to find a way to emulate the DTC satellite capabilities in their own, which is probably very good for ASTS.",hot_take,,
+"So.... OpenAI never said it was $70 billion, media did. Then media walked back their own number..... and every tech stock takes a hit as a result. Seems like FUD headline. I mean I have no love for OpenAI or Sam Altman's stupid ass but this seems overdone.",reaction,,
+"Inflation was coming down, then Trump went tariff and Iran. I think certain things are beyonds feds control where raising rates won't do much to curb inflation.",hot_take,,
+"Let's be real. The stock market is a total random casino. And prices don't even have to make sense.
+
+Look at SpaceX or Tesla.
+
+As long as you can launch yourshitcoin on the NASDAQ and market yourself as boy genius musk you can sell ideas worth trillions and then use that money to actually produce the vision",hot_take,,
+"For anyone with an account there: the stock dropping and your account being at risk are two different things. Your securities are held separately from the company's own money, and SIPC covers up to $500k per customer (of which $250k cash) if a US broker fails. This report is a congressional panel, not a regulator action, so nothing changes for accounts today. If the cash part worries you, that's the bit to keep under the limit.",analysis,rules,
+"Absolutely every company PE ratios migrate down to profits. Either the price of the stock drops, the profits or the company stays flat for 20 years and grows into a real return.
+
+If there is near zero chance of the kind of profits imagined or the stock price at the maximum it will ever be imagined to make, then the reality is the stock price has no upside and all investments has only the downside risk.",hot_take,,
+"You guys are still arguing about earnings / profitability /cash flow based valuations? Have we not learned over the the years it doesn¡¦t matter. It¡¦s all sentiment. SpaceX just proved it again. Not to say these stocks won¡¦t one day have a reckoning, but good luck timing it. Hell, it¡¦s like 10 years later and TSLA valuation still makes zero sense. PLTR is still at a 200 P/E¡K.you think Anthropic or OpenAi is going to be any different? It¡¦s all feels. So this argument just carries no weight or doesn¡¦t means much.",hot_take,,
+"The potential arb on a single retail trade is microscopic. The reason why HFT revenues have exploded the last couple of years is because volumes have exploded, especially on certain products. People don't trade single equities anymore. They buy ETFs. They buy derivatives and options. All of these have much more 'juice to squeeze' on the arb side. Also, the notion that this is rent seeking misses that this space is extremely competitive between very capable firms.",hot_take,,
+"AI Bubble will pop when you will least expect it to. Hear me out.
+
+We've all heard the warnings: AI companies are drowning in debt, private borrowing is far larger than reported, revenues are nowhere near justifying the spending, and it's all a bubble that will pop suddenly. Fine. But I have a different answer to the question of *when*.
+
+The first sign of the pop won't be bad news. It will be good news.
+
+Watch for the moment revenues jump, an unusual, instant surge in profits that makes it look like AI has finally delivered on every promise. That's your signal. Not because the boom is real, but because that's exactly when the big players will start heading for the exit, and then it would be like Dominos falling.
+
+By then, the major AI companies will have gone public. A blockbuster earnings report is the perfect cover: the market cheers, expecting stocks to climb even higher, while insiders quietly sell as much as they can. They cash out, cut their losses, and some walk away with enormous profits.
+
+And who's left holding the bag? The public. Ordinary investors, pension funds, and retirement accounts will be left to pick through the wreckage after the pop.
+
+Worse, the pain won't stop there. Debt losses will be socialized. Whatever the companies lose, taxpayers will end up covering.
+
+The big players cash out on the way up. The public pays on the way down.",hot_take,,
+Taking profits on Friday might not be a bad idea. $TQQQ RSI is running at 69.31 at the moment. It always seems to bounce when it hits 70.,hot_take,,
+"You don't just spend the cash flow just because it exists; it needs to be on something meaningful. The company is on track to exceed $200b in net income a year. That would be quite a bit of cash to spend for any company, let alone an asset light chip designer.
+
+Buying back stock is an immediate return to shareholders. Also big tech didn't buy back stock just because rates were low. They do it to offset dillution via equity grants to employees. This is a constant cycle in tech, whether rates are high or low.
+
+Issuing new equity to attract and compensate employees would never fly with the board and shareholders, if there wasn't a clear return. In this case buying shares, retiring them and reducing float increases EPS and increases the percent stake in the company each share represents and thus provels the value up.",analysis,buyback mechanism is checkable,
+Drones have been very innovative against the current weapon groups but I believe they will have counters shortly. They will need to become watermelon sized swarms with incredible flexibility to really advance in the meta. Talk about data centers!!,hot_take,,
+"A warning to those investing in AI
+
+Consider this, you invest in NVDA, MRVL, or MU because their hardware is ESSENTIAL for the AI buildout. Hyperscalers can¡¦t buy enough because of the need for compute. You buy stocks like Crowdstrike and Palo Alto because of the massive need for cybersecurity in the age of AI agents. Maybe you buy shares of Snowflake because of the data AI needs to process or you buy Cloudflare because they are the most dominant company in bringing AI cloud to the edge for lower latency.
+
+However, all of these investments are made based on HUMAN SYSTEMS which are very INEFFICIENT. What happens to these investments when AI achieves SUPER INTELLIGENCE or simply ASI? Many top researchers in the field say it can happen any day now.
+
+So what is my point? ASI will likely redesign everything to be far more efficient. All of these massive data centers, GPUs, HBMS, etc won¡¦t be needed on the same scale as humans designed it. ASI will improve it all to operate as efficiently as possible meaning those companies will be selling far less hardware. As for cybersecurity companies? They will be overtaken by ASI meaning they will be totally worthless to humans. Cybersecurity for humans in the Age of ASI is like saying squirrels have security against humans. No, ASI by definition will be superior to humans. No cybersecurity company will be able to control it which means these investments to day mean nothing once ASI is here.
+
+TLDR; Once Artificial Super Intelligence (ASI) is achieved AI stock investments for humans become meaningless as we will now be dominated by something superior to us.
+
+Here¡¦s my question for yall: Are yall skeptical of this happening, meaning ASI actually happening, or do yall think it¡¦s a 100% for sure certainty to happen. My personal view is it likely happens. The gains in AI stocks will be great up until the point ASI happens. Then, we are all FKED.",hot_take,,
+Lowest market volume since Christmas 2019,reaction,,
+Open ai strikes back. Says 70b run rate by Christmas,reaction,,
+"FSLR, solar has been getting absolutely demolished the past few months but this company is highly profitable, with a single digit forward pe, no debt, and US assembly lines.
+
+Solar and other alternative energy sources should benefit from the Hormuz crisis in the medium to longterm too",analysis,,
+"AVGO is the only choice here and based on forward PE and other metrics, an undervalued gem. TSLA just toxic",hot_take,forward PE not actually checkable,
+Unpopular opinion but GME chart looks good same with AMC. I am not invested in them tho.,hot_take,,
+"Weak Q3 2026 Dividends?
+Broad market news
+I¡¦ve been investing for about a decade now and one of the things I like to do is look at my dividends and how they have grown over time. I have a pretty traditional portfolio that is spread mostly across US and international broad based index funds.
+
+I¡¦m actively investing, so I typically see dividend growth year to year regardless of fluctuations in market factors.
+
+For the first time since I¡¦ve been investing I noticed my Q3 2026 dividends fell short of my Q3 2025 dividends. I don¡¦t really recall this ever happening in the period I¡¦ve been investing. I only check from quarter to quarter as most of the funds payout dividends quarterly.
+
+Is there any math out there on this? I¡¦m curious to see how Q4 turns out.",reaction,question base on event,
+"NVDA is very cheap because the bottom could fall out if there is a downturn in the datacenter buildout or a company like ORCL starts defaulting on their debt. This doesn't seem like a likely scenario in the next few years, but if it happens the pullback would be significant. That said, the datacenter buildout has big momentum and NVDA has purchase agreements that saturate supply for years. I don't think that fundamentals from NVDA are going to drive the stock higher because they have crushed expectations quarter after quarter. The market needs some confirmation of broad-based adoption of AI in the economy that drive down the risk of companies bailing on their capex plans. If we get that, e.g. Muse or Dots getting mainstream adoption, then I think NVDA could start to rally again.",hot_take,,
+tesla is only selling because the us gov banned BYD from coming over here. this car is inferior in every way,hot_take,,
+The September hiring surge the hiring surge! They hiring in September!!!!!! That's all we heard. What a load of horse.,reaction,,
+"I think the market is treating this as a growth scare that buys cuts, which is why futures jumped. What I watch is the revisions: July flipped negative and August got cut hard. If the next couple reports keep that pattern, the soft-landing story gets rewritten as labor already weakening while stocks sit at highs. One print is noise; the revision trail is the tell.",hot_take,assertion,
+"They talk about both. the revised numbers are also likely falsified - they have total information control. these numbers are likely being laid to try to justify the idea of rate cuts to 'save' the labour market prior to the election.
+
+if you believe the original numbers are juiced and faked and not simply inflated like we believed in the past, you should also believe that the 'real' or revised numbers are faked.",hot_take,,
+"I would not treat them as the same trade. Micron CEO said memory and storage look tighter in 2027 and 2028 than this year, and more than 75 percent of Micron 2027 output is already committed. Sandisk is NAND, not HBM, so you only get the broader shortage story, not the HBM backlog people keep quoting for Micron. Fine if the bull case is just that NAND stays tight through 2028. That is a different bet than riding HBM contracts.",analysis,ref,
+"Twilio $TWLO is set to join the S&P 500 on October 6. What an incredible journey for this company
+https://finance.yahoo.com/markets/stocks/articles/twilio-join-p-500-p-222951025.html
+
+Twilio has had one of the most remarkable turnarounds and is now set to join the S&P 500. This sets the stock up for more growth ahead. The future looks bright for 2027 and beyond as tailwinds for agentic AI, and their own AI products released this year come to fruition. The stock is now up 105% YTD and 184% in 1 year and has reached a $46B market cap. Twilio has bought back billions of dollars of shares over the past 3 years and is now generating strong free cash flow.
+
+The future looks bright!",reaction,event,
+"They will never be built, it¡¦s only propaganda before midterms, just like the ¡§Greenland deal¡¨ that was just an extension of an existing 1951 agreement. Smoke and mirrors. The Koreans will drag it along until the next administration comes in.",hot_take,,
+"Fun fact that MU and NVDA make up 35% of the S&P¡¦s projected earnings next year.
+
+A company like Coca Cola or Disney could completely evaporate from the earth and it would barely register in the index.",analysis,,
+Russel 2000 down 6% this month. AI bubble propping up SP and Nasdaq while everything else is going down,reaction,,
+"There was never a prolonged recession w/o high unemployment.
+
+There were four recent major market crashes (Black Monday, 2018, COVID, and 2022) w/o high unemployment, and the market recovered within 2 years. Please note that during the 2008 financial crisis, unemployment was 10% and didn't drop back down to below 5% until 2017.
+
+Current unemployment is 4.2%, with weak unemployment claims meaning slower hiring rather than big layoffs. The market doesn't mind until large layoffs trigger high unemployment %.
+
+Keep in mind, the market is fwd looking while unemployment lags behind so the 2 often don't go hand in hand immediately.
+
+As long as consumer money continues to flow into Wall Street and Main Street, the market continues to go up.",analysis,historical data,
+"I have been DCA¡¦ing into VOO since 2012 and now I¡¦m rich.
+
+Never went to college, I have no pension and no inheritances. I recently sold my house ($300k starter home that I never upgraded) and nearly everything in it and I now travel the world in perpetuity for leisure. I¡¦m 45 years old.
+
+It¡¦s possible for you to get rich slowly too. You have to be disciplined enough to buy more VOO than ever when it¡¦s low instead of selling or buying into something else. The Boglehead website can help you with deeper details.
+
+Just a PSA, now I¡¦m off to chat with Monks at a temple in Thailand",hot_take,,
+"Another Huge Flag: S&P 500 returns are signalling markets are at a very critical stage
+We all know that the treasury market and global bonds as well are spiraling out of control. Of course, extreme bond swings in either direction also influence the stock market, or one could argue that maybe it is the other way around. Regardless, bonds selling off(or bond yields soaring) does not bode well for stocks.
+
+However, I want to talk about another signal from the stock market that comes directly from the stock market. First, we clear up some terms for the sake of newbies. There's the common (market-cap) weighted S&P index and the equal weight S&P. The market-cap weighted S&P index is based on, well, market-cap size. And as many of us know, the equal weight S&P is an index where every company in the index is assigned the same weight. For example, in a market cap weight S&P Alphabet(GOOGL) would influence the index just the same as Fair Isaac Corporation(FICO). Currently though in the more common market cap weighted, GOOGL influence the index around 260X compared to FICO.
+
+With the background out of the way I want to talk market returns and what that means(or might mean). The S&P (market cap weighted) is currently 2% below its one year high. The S&P equal weight is 5% below its one year high. The seasoned investors might know more the the significance of the 1 year period. Actually, right behind your 50MA, 100MA, and 200MA is your roughly 350 day MA works close enough to the 365 days in a year. But I digress.
+
+The market cap weighted(MC) and equal weighted(EW) S&P indices have given these signals before very critical market junctures in the past 6 years or so.
+
+(08/2020) At the start of the 2020 bull market just after recovering from the Covid crash losses - ~49% gains to January 2022
+
+(06/2023) Before the 2023 mid-year correction - ~ -9.5% loss through October 2023
+
+(11/2023) After the 2023 mid-year correction - ~ 43% gains through November 2024
+
+(12/2024) Just before the 2025 bear market - ~-19% loss through end of (30) March
+
+And we have just received another one of these signals very recently.
+
+Perhaps on its one this signal may not mean much to people but considering inflation, energy markets and bonds, I don't think it should be shrugged off at all. I will admit I have been a bit generous with the returns(which is why I tried to include dates) as you'd had have to sold fairly opportunistically to get those returns but even if you only bagged (or lost) 25% of any of those numbers it would still be massive.
+
+In terms of specific names, the signal is pretty market-general. Moving/popular names like NVDA and LLY continue to do very well and outperform in the bull moves. Stocks in a bad macro environment like MDNA post-Covid do poorly in a correction/bear market.
+
+Credit for this insight to Bluekurtic Markets on twitter. I didn't figure this out.",analysis,,
+"Just sold last NVDA, GOOGL and MSFT
+I mean the economics never made sense at these GPU prices, but its just getting so ridiculous that even riding the last hours of the party feels wrong.
+
+I mean if hyperscalers want their historical 30% ROIC, they actually need $636 billion annually. 10 times their current run rate (~$70bn AI cloud revenues). If you take into account that the labs acutally want to make some money at some point too, consumer and enterprise AI spending needs to hit nearly $2 trillion.
+
+There is absolutely no way we see $2+ trillion in actual software sales anytime soon. Consumers are used to free digital products and charging them the full cost is impossible.",analysis,,
+"I think the last couple of months showed that, unlike what we thought a year ago, this isn't a ""winner takes it all"" race. The competition is fierce, and it seems like no company is able to build a moat.
+
+Google with strong compute and frontier model (doesn't have to be #1 all the time) will not be dependent on other companies, and will be able to use it in-house across all their products (including android). They might not be the number one choice for programming, but it doesn't matter. Programming is relatively small market share compared to Google's entire ecosystem.",hot_take,,
+"For everyday questions, I feel like Gemini is by far the best---answers feel responsive to the desired level of detail vs. the deluge of models like Claude and the overall way less personal feeling (coder brain). Most people would imo probably prefer Gemini over all the other LLMs if they actually used all of them in a blind test. I think real world usage is probably more important overall than just coding.",hot_take,,
+"GOOGL is a strong long-term growth stock with AI, cloud, advertising and a huge global ecosystem that all give it multiple engines for future growth.",hot_take,,
+"Have to remember, stocks people think are cyclical PEAK at 6x - 8x forward PE. So, if they still expect $160 EPS next year, then we should expect $960 - $1280. Unless they really raise EPS. Remember, if they add volume of units pricing strength may drop as well, so additional volume doesn't immediately apply to EPS. This is a tough stock to value. 25x forward PE for HBM, but 8x for everything else? What would that be? My guess is $1100 simply because that's what the market is giving them.",analysis,,
+"I buy a ton of Nike products but also have been shorting Nike for the past couple of years. As a consumer, it has been great as many of the products that would have had massive demand several years ago, are consistently selling for under retail. I think Nike will turn it around eventually but there has been nothing that I've seen as a consumer that indicates to me that Nike has made any progress.",hot_take,,
+"True inflation is the consumer looking mortgage rates, monthly rent in their city, high velocity spend of gas and groceries, and household stables. 
+
+All this stuff is way higher some are 100 percent inflation year over year for some foods. Beef prices are insane",hot_take,,
+"The cooler PCE print is definitely constructive for equities, but I think the ¡§front-load deeper cuts¡¨ conclusion is a stretch. Core PCE held at 3.0% YoY and headline PCE was 3.4%, while consumer spending was still pretty strong, so this looks more like reduced pressure for another hike than a clear signal for aggressive easing.
+
+That matters because long-duration growth and small caps usually want lower yields, not just slightly softer inflation. If bond yields stay elevated, the valuation relief could be limited even with better inflation data.
+
+So I wouldn¡¦t read one print as ¡§soft landing confirmed.¡¨ I¡¦d treat it as one positive data point and still watch yields, labor data, and whether inflation keeps moving lower from here.",analysis,data,
+Bonds can't even beat sp 500 historically. The premium you paid for the risk free rate is not worth it unless you absolutely can't take any risk.,hot_take,,
+"ah man this weekly thread is way calmer than i expected, nobody yelling about rockets or diamonds yet. last time i checked that list half of those stocks were getting hyped in twitter but i can't tell what is genuine move and what is pump. maybe just me but feels like the mania has cooled off a bit, or maybe i'm just not in the right discords anymore",reaction,,
+"The future is now old man. (Only joking)
+Nike doesn¡¦t have the same appeal it used to to the younger generation, quality has been dropping for years and they willingly gave up their retail presence.
+Jordan is at least contributing to the youth presence and if you¡¦ve never been a part of the community then you wouldn¡¦t understand why it is such a massive brand in of itself.",hot_take,,
+"30Y hit 5.703% today, fresh new 24 year high.
+
+Please do your part to help markets by buying this and become a bagholder of US debt.
+
+Thank you for your attention to this matter.",reaction,,
+"Ive been watching HTZ for a while now and honestly it feels like trying to catch a falling anvil. 18.7B in debt is just terrifying no matter how good the turnaround story looks on paper.
+
+the operational improvements are nice but that debt load eats up so much cash flow before shareholders see anything. if rates stay high theyre basically working just to pay interest.
+
+used car prices softening too is a double whammy since their whole business model depends on selling fleet at decent residuals. i want to believe in the bounce but my gut says wait till after earnings at least",analysis,checkable,
+the key to make money in this market is buy calls on stocks that are extremely overbought and keep shorting those that are extremely oversold. works about 99.8% of the time,hot_take,,
+"It's no guarantee that the stock market drops when interest rates go up. There are many periods in history where bond yields were rising along with stocks.
+
+Even when interest rates are high, bonds are very conservative investments that best serve older investors looking for capital preservation and income. Younger investors with decades to retirement should focus on stocks. Capital gains in the stock market typically far outpace bond yields over the longer term.
+
+Certain stocks like small-caps and biotechs are more sensitive to higher interest rates since they must borrow money constantly. Other companies that do not rely too much on debt will be less affected.",analysis,historical event,
+"If 10 year treasury bonds yield a guaranteed > 5% while the stock market has historically averaged 8-10% with much higher absolute risk involved, the math starts mathing in favor of bonds.",hot_take,,
+"Different companies.
+
+I chose Nu at the time, but Meli is a great company.
+
+I must point out that I am not pleased some strategic decisions they have recently made. It is a gamble that just does not seem necessary (the UK acquisition)
+
+Edit: nevermind, I am not up to date it was apparently a false rumor. Good",hot_take,assertion,
+"I don¡¦t think this vibe coded app in particular will impact ADBE, but I will be surprised if in the next 5 years a small serious team will not compete away ADBEs non enterprise users¡K or atleast entirely commoditize their pricing power to the point that they will be forced to destroy their margin. It can happen really fast (see how fast Figma ate the design space). It¡¦s just too easy to build a SaaS app now and there¡¦s no reason customers need to deal with Adobe¡¦s shitty practices when other pretty much equal alternatives will exist soon. Photoshop has a lot of muscle memory built in but if you¡¦ve basically copied the interface like this guy it doesn¡¦t really matter",hot_take,,
+I've been bearish on adobe since the saas-pocalypse because it's actually a product that will see meaningful loss over time because of AI and I also look at how they're implementing AI and I'm guessing it's features people don't want. They're in a really tough space cause they're going to lose to AI and they need to adopt it but the vast majority of the people using adobe software don't want AI cause they know it's going to take their jobs. Adobe has to use it and offer it in a way that makes more money but also is supported by their users. In my opinion that's way too difficult to do and all indications are that they're NOT doing it. So I wouldn't touch adobe other than puts which I have done :),hot_take,,
+I think that AI Tamagotchi is going to make a lot of money but I also see lawsuits in ten years from parents saying their kids developed a parasocial relationship with it.,hot_take,,
+"The cloud business has been forgotten. If 1% of subscribers to AI pay for a subscription that¡¦s 8B more quarterly. Similar payout for the cloud sales with growth potential. That multiples their current revenues by 1.5-2.0, you¡¦re looking at a stock that¡¦s been trading under for years, so we will go low end, but somewhere like a $1500-$2000 share price",hot_take,assumption,
+People don¡¦t understand M2 money supply expansion. This is just not how anything works,hot_take,,
+"Nuclear stocks had their boom 18 months ago and have been huge dogs the past year. Too expensive, too obvious, too long of lead times. There are better opportunities out there.",hot_take,,
+"Nonsense. The world doesn't need 200 Broadcoms. It just needs some verification and testing from a few dozen countries, which already happens.",hot_take,,
+"AVGO is fundamentally supported. Based on forward guidance, both NVDA and AVGO trade at <20x forward EV/EBITDA and have 50%+ net margins. By comparison, AMD is over 60x EV/EBITDA with 20% net margins. I just don't see AMD growing into its current valuation.",analysis,,
+"In my experience, when a stock is going to rip it first goes thru 3 phases:
+
+Phase 1 = It crashes down lower.
+
+Phase 2 = It gets a bit flat for a while.
+
+Phase 3 = The stock suddenly bursts out of it's cocoon and rips.
+
+Same thing happened with my Micron and with my AMAT stock.",hot_take,,
+"When 2026 started the market was expecting 2-3 rate cuts, WTI was $57 a barrel, gasoline was $2.89 nationally, and diesel was $3.52.
+
+Now we're expecting 2-3 rate hikes this year with more to come next year, WTI is $92, gasoline is $4.47 a gallon nationally, and diesel is $6.51, all while crisis that caused energy prices to soar is not only unresolved but has gotten worse, with Saudi oil facilities targeted daily, and the market is checks notes up ~15% ytd?
+
+Fascinating...",analysis,,
+"more or less
+
+GOOGL still looks cheap versus the cash it generates.
+
+The market prices it like search plus an AI tax. Ads are still growing, cloud is scaling, and the multiple doesn¡¦t give much credit for that. You don¡¦t need a perfect AI outcome from here.
+
+I¡¦d change my mind if search share slipped for a few quarters, or if capex stayed this high with no lift in cloud margins.",analysis,,
+SMCI is a cheap stock compared to DELL & HPE. It will catch up soon IMHO.,hot_take,,
+They are supposed to do 70 billion in revenue next year with like a 26 billion market cap... I bought 50 leaps the other month and up almost 100% in a short time.,hot_take,,
+This is the point I make with everyone I know. Stock market would be at least 10% higher without this corrupt rapidly,hot_take,,
+"Supply will turn up, one way or another. Commodity hardware prices at this level is a threat to margins of the tech giants. They will not allow these prices to continue and they have the cash to ensure it doesnt.",hot_take,,
+"Paramount is going on the Private Equity self-destruction path, you're not going to stop it.",hot_take,,
+"Palantir is one of those stocks that defy valuation, similar to tesla.
+
+I wouldn't short it basis valuation. You need a better catalyst imo.",hot_take,,
+"I think part of the rotation is simply valuation and expectations. Tech had a huge run, so even solid companies can get punished when growth expectations cool off. Oil has the added tailwind of geopolitical risk, while biotech can move independently based on clinical and pipeline catalysts. The interesting question is whether this is an actual sector rotation or just money temporarily seeking less crowded trades.",hot_take,,
+"Never fucking invest in gym clothes
+
+UA, LULU, NKE were at the top of the world not long ago, now they are left for dead
+
+The same thing will happen to the ones that are ¡§in¡¨ today
+
+Not everything is meant to V like a tech stock",hot_take,,
+If the fed beats earnings we moon.,hot_take,,
+"Anthropic IPO leak is insane
+
+Anthropic's leaked IPO filing shows $4.6B of 2025 revenue, a $42B net loss, Q2 2026 revenue of $11.5B, $518B of planned computing spend, and a target valuation near $2T.
+
+Anthropic is literally projecting a -3.9:1 evaluation to profit ratio and a 174:1 evaluation to revenue ratio and then asking for two trillion dollars. I feel like I¡¦m going insane.
+
+I¡¦m pulling out of the NASDQ. These numbers just don¡¦t make sense anymore. CEOs called their own investors insane during the dot com crash for investing in companies with a 10:1 revenue to profit ratio.
+We live in some bizzaro world where a company will burn hundreds of billions per quarter and we have legions of investors foaming at the mouth to throw another two trillion into the fire.
+
+I feel like at one point there was genuinely an argument for speculating on growth, but these numbers are out of control.",reaction,emotional,
+AI is useful. That does not mean it¡¦s profitable.,hot_take,,
+"That will likely cause a broad market selloff.
+
+While on the surface it would seem the market should celebrate a hold, and it may happen initially, when the news sinks in they¡¦ll start to question Warsh¡¦s competence.",hot_take,,
+SNDK is going to be a big winner in the shift to Inference from Training.,hot_take,,
+"SPY finally went red like last 15 minutes... after 10Y absolutely exploded following PCE today.
+
+Down only 0.2%.",reaction,,
+Market breadth is at its lowest level since the 2000 Dot Com bubble. About 60% of the stocks in the S&P 500 are down more than 20% from their all-time highs. I think there's value in buying the equal-weight index (RSP) over the market-cap weighted index at this point.,analysis,historical data,
+"AI's next bottleneck might be electricity, not chips
+
+For most of the AI boom, the conversation has been about GPUs. Can Nvidia make enough chips? Can hyperscalers get enough of them?
+
+I'm starting to think electricity is becoming the more interesting constraint.
+
+South Korea's energy minister recently said AI-driven expansion from chipmakers and data centers could add 25 to 30 GW of power demand. For some perspective, Reuters says that's roughly equivalent to the output of 20 nuclear reactors.
+
+Google is dealing with the same problem from another direction. Its new £á13B AI infrastructure investment in Finland includes a 22-year agreement to buy up to 50% of the output from the Loviisa nuclear plant.
+
+And in the US, Congress is now looking at legislation designed to prevent rising data-center electricity demand from being passed on to households through higher bills.
+
+This starts changing how I think about the AI infrastructure trade.
+
+The bottleneck isn't necessarily how many GPUs can be manufactured. Those GPUs still need data centers, transmission, transformers, cooling and enormous amounts of reliable electricity before they can actually generate revenue.
+
+Elon Musk recently estimated that around 15 GW of AI compute produced in 2027 may not be able to turn on that year because the surrounding infrastructure won't be ready.
+
+If AI demand keeps growing at this pace, power generation and grid infrastructure could end up being just as important to the AI buildout as semiconductors.",analysis,ref,
+"AI seemingly has so many ""bottlenecks"" that I suspect it will never happen. Either that or there are no bottlenecks, only people looking to get rich quick.",hot_take,,
+"Interesting to see the huge disconnect between WTI and Brent futures. WTI started September at $90.22 a barrel, hit $105 a barrel on September 15, and has roundtripped all the way back down to $89.43 a barrel currently. Conversely, Brent started the month at $94.65, hit $108.75 on September 15, but remains at $102.59 today.
+
+In other words, WTI futures gave up all their September gains and thensome, while Brent is way off its recent lows ($99.25 on September 22) and has held on to most of its monthly gains.",reaction,,
+"Yields are not attractive enough yet, room to keep running up",hot_take,,
+"Personally, 6% rate is still worse deal than stocks and with money printing comes inflation which means devalued dollars so stocks go up for now. Doesn't mean real value goes up.",hot_take,,
+Inflation is going to run hot and everyone knows it. Bond yields won¡¦t be enough.,hot_take,,
+"Jesus Christ energy markets are popping off already in overnight trading with WTI and Brent both up 3%, diesel up 3.5%, and gasoline up 2%. We're gonna hit inflation adjusted all time highs in diesel within the next day or two and keep screaming higher
+
+Seems like the creeping realization of how fucked everything in is finally seeping in.
+
+There's no end in sight",reaction,,
+"What's actually happening is that OpenAI's books are cooked and they're in terrible shape, which is why Altman is trying to delay the IPO until there are some US protectionism policies in place to keep better products out of the market.",hot_take,,
+"The Fed isn't in control of the long term rate anymore regardless, sovereign debt crisis in Japan + the US and the war in Iran which will likely drag on for years... inflating away the national debt is going to be inevitable. As a fun add on, if AI guts the PMC class then that will crush tax revenues from W2 workers, making the deficit worse.",hot_take,,
+"I ended up .35 for the day, 1.4 for the week. That is satisfactory",reaction,,
+Sooner or later I feel like they¡¦ll just move the goal line and set target inflation at 3%.,hot_take,,
+It's so obvious they are pursuing an inflationary strategy for corporations to TRY to outgrow US debt ratio. They gave up on recession strategy and thus inflationary continues for at least 1.5 more years.,hot_take,,
+"I don't think the issue is the power generation itself, it's getting the natural gas to the site to be fed into fuel cells or turbines or whatever",hot_take,,
+defensive stocks aren¡¦t automatically a hedge if you¡¦re paying a huge premium for them. you can diversify away from tech and still overpay,hot_take,,
+"I think competition and supply side is what to watch. They already said guided growth is 70% which would have been 100% if unconstrained.
+
+Supply ¡÷ HBM remains tight, unchanged from last quarter. But two other things also showed up this quarter. First, CoWoS packaging. Nvidia said ""CoWoS assembly capacity is oversubscribed through at least mid-2026"". TSMC side also confirmed it is ""extremely tight and sold out through 2026."" Good indication for demand pov. But can become an issue for growth. And then physical infrastructures i.e data centre, land, energy supply. Both Broadcom and Microsoft are saying those are increasingly the problem not just purely memory. So all these three things are reason why Nvidia guided 70% growth FY28; 100% growth unconstrained
+
+Competition = An area worth keep a close eye on. First, custom chips. Both OpenAI and Anthropic are designing their own custom chips. OpenAI claims their Jalape?o chips are better than Blackwell. Then there's AMD. Lisa Su said ""Helios delivers up to 15% more throughput at the same rack power and up to 30% more tokens per dollar than the competition"" for inferencing workload.",analysis,ref,
+Gold is down 23% from its high earlier this year. That means it has a lot of room to run in a downturn.,hot_take,,
+"Bonds are worthless. Stocks are almost at all time highs.
+
+The S&P would have to correct 20% from today¡¦s closing to be at its yearly low. There are millions of 20-35 year olds all over the world who have no concept of the economic conditions from 20 years ago. Only as kids.
+
+Once Americans start losing their jobs (and don¡¦t automatically contribute to their 401k), then equities will take a hit. But not until then so the ridiculous bull market will rage on",hot_take,,
+Today went well enoufh I don¡¦t have to cry through the weekend.,reaction,,
+"Iran can't keep hormuz locked any longer.
+
+Their economy is starting to hurt too.",hot_take,,
+Historically bad meaning 1-2% drop on average. The good news? 97% of the time after mid-terms the stock market has growth for the 3rd year. Statistically the 3rd year of a presidential term can be considered the best year of the stock market under most presidents.,analysis,,
+"Renewables are a great investment (finally, after a decade of being a shit investment). But play them through Canada, Europe and China. America sucks when it comes to renewables, whether under a republican or democratic... I suspect it has more to do with the petrodollar than anything else. America loves oil because it's the backbone of the USD as the world's reserve currency",hot_take,,
+"I'd look at nuclear, SMR, the makers. GEV, Rolls Royce, the largest reactor utility stocks etc",hot_take,,
+Adobe have always had free and cheaper alternatives as competition. It didn¡¦t stop them from continuing to generate cash. Thinking AI will replace all the workflow used by enterprises overnight is just naive and have no understanding on how enterprise works.,hot_take,,
+"They are banning exports because there are shortages and to keep prices down, that¡¦s bullish for oil IMO because the supply situation is getting worse. If you feel it is too risky/stressful then nothing wrong with selling",hot_take,,
+Holy hell that's some enormous green shrek candles¡K,reaction,,
+"I was super bullish on Circle, but then I am like...wait. I am just going to use whatever my bank uses.
+
+I haven't seen circle sign up any top bank, they are just pilots.",hot_take,,
+"I think the main issue is that the training costs are essentially operating costs because if they stop training, they'll get lapped by open source. There isn't a super clear path to sustainable profitability unless you buy into the idea that the intelligence explosion is imminent and labs will be able to turn the flywheel into a durable moat. Usually when a company deploys massive capex to build a service business, other companies can't just hitch a ride for pennies via distillation.
+
+If you think AI is a ""normal technology"" Anthropic may be doomed. Even in an intelligence explosion world, unless distillation is solved, the actual profitable moat is the small gap between open source capabilities and frontier capabilities, which is quite narrow in general. This small moat will get consumed by the next generation of open models, and so the frontier models will need to reinvent their value proposition and business model on a constant basis. This doesn't let investors have confidence about what their business will look like 1-5 years down the line.
+
+If distillation gets blocked or the internal flywheel really picks up with RSI or some other form of user-lock-in moat, then investors will probably be more optimistic about Anthropic.
+
+Personally the outcomes are so uncertain that I'd rather invest one layer down into the chips/memory/power/cloud side where the investments have much more certainty of future durable value. I think demand for today's data centers will grow as more powerful models can be run on the same chips.",hot_take,,
+"The best guess is anthropic is NOWHERE NEAR PROFITABLE, because if they were profitable with this level of spend, they could IPO for like 3 Trillion or something.",hot_take,,
+"I think the profitability concern is fair, but the growth is pretty crazy too. For me, the big question is whether they can eventually grow revenue faster than their compute and training costs. That¡¦s what would make me take the valuation more seriously.",hot_take,,
+"Lack of innovation is what caused the stock to drop from $179 to $100. Terrible timing to go DTC caused it to drop from $100 to $60. The worst macro backdrop in decades caused it to go from $60 to $35.
+
+Obviously I¡¦m just saying numbers but I do feel it is something like that. I think what you¡¦re saying is absolutely true but just not entirely in the current state of the stock market where flashy headlines and extremely temporary sentiment will make stocks move incredibly aggressively.",hot_take,,
+Prices will come down right after the election. Trust me bro,hot_take,,
+It seems like Cybersecurity is going to stay in heavy demand for a good long time. Ai is making it so high profile,hot_take,,
+"There is no demand for GPUs once Anthropic and OpenAI collapse, which they will. These companies invested 2.5 trillion in AI and we rewarded these companies with a 40% boosts.
+
+I don't think there is enough liquidity to push this higher, especially with the clear economic turmoil. I think this is just a coordinated media effort to manufacture consent for this bubble pop.",hot_take,,
+"Selling AI companies like CRWV and putting the cash into AAPL probably, they seem more reliable.",hot_take,,
+Korea was one of the poorest countries in the world within living memory. It¡¦s just a byproduct of a country that had insane amounts of catching up to do.,analysis,,
+"Goog, nvda, AMD will all beat and provide higher guidance. ASML is your proxy and signal.",hot_take,,
+"To be clear, if PLTR grew revenue at 50% a year then they¡¦d be at $160B revenue in a decade which would absolutely justify a $750B market cap. Not saying it¡¦s plausible that 50% revenue growth happens, just that it takes far less than 50% growth to justify a $750B market cap. If you assume PLTR trades at a similar P/FCF to other enterprise software vendors like Salesforce, SAP, or MSFT; then they¡¦d need ~$50B revenue to justify $750B market cap. Which requires 33% growth for a decade.
+
+That¡¦s still high, but AI as a whole is expected to see MASSIVE growth as well. Depending which research firm you choose to believe, the AI market will see 20-40% annual growth for the next 5-10 years. Given that PLTR is objectively one of the leading names in the space, I don¡¦t think it¡¦s too wild to assume they can sit in the higher end of those estimates, or perhaps even temporarily surpass them.
+
+$750B sounds like a big number in today¡¦s stock market, but keep in mind that in 10 years we will almost certainly have companies hovering around $10T valuations, and dozens more above $1T. At $750B they¡¦d be a comparable size to where Salesforce is expected to be. A top 30 tech company in the S&P500. Nowhere near the size of the megacap corporations, but doing very well.",analysis,inference,
+"The QNX story is actually underappreciated by most people who still think of BlackBerry as a dead phone company. QNX runs in over 235 million vehicles globally and is the dominant real time OS in automotive. As EVs get more software defined that embedded position becomes increasingly valuable.
+
+The 144% EBITDA growth is the number that matters most here. Revenue growth is nice but they¡¦ve been burning cash for years. Five consecutive quarters of positive GAAP net income and now positive operating cash flow for the first time in nine years is the actual turning point people should focus on.
+Still a show me story but this is starting to look less like a turnaround bet and more like a legitimate software business. Canadian sleeper that most US focused investors completely ignore.",analysis,checkable,
+"Here¡¦s why OpenAI/Anthropic will not go bankrupt (inference margin and training cost).
+TLDR: 1. Inference margin is 55~70% for OpenAI and Anthropic.
+
+2. Training model cost should be single digit billions O($1B).
+
+3. The secured investments are O($100B).
+
+There are a few reasons to be bearish on AI industry that I will list at the end, but most of current AI bears¡¦ thesis are based on misinformation. The bears argue that OAI/ANTH are massively subsidizing the customers and incinerating money they received purely from blind investors. But have they done their research to come up with this conjecture? AI profitability is determined by:
+
+AI_profit= -(AI training cost)+token_usage*(API_fee-compute_cost)+num_subscription*(sub_price-compute_cost*usage)-other_costs
+So I think the AI bears are making wrong assumptions about the present state of AI industry, making me bullish about AI. With that said, I have other reasons to be bearish in future that I will be watching out for.
+
+1. Data center build out takes 1~2 years and we will get step change in compute supply 2027~2028. Will there be enough compute demand for the GPU rental cost to remain/increase compared to current value? (This isn¡¦t bearish for OAI/ANTH).
+
+2. The moat for OAI/ANTH seems around 6 months, especially if they have to wait for the government to check model release for safety. Can OAI/ANTH maintain 50%+ margin on API? (This isn¡¦t necessarily bearish for cloud providers).",analysis,,
+"TSMC is the Hormuz Strait of semiconductors. I moved 30% of my portfolio over today.
+Yesterday I moved 30% of my portfolio to Taiwan Semiconductor, and I plan to hold it for 3-5 years. I am convinced this stock is under priced relative to other megacap stocks, for a few key reasons. 
+First, and most importantly, the geopolitical risk from China is overweighted, and currently suppresses TSM¡¦s valuation in a meaningful way. TSM is the Hormuz strait of semiconductors. China has postured about Taiwan since the 1970s. For 50 years now, they¡¦ve done nothing. I am not convinced China can mess with TSM (Taiwan more generally) in a way that could force the stock to drop a significant amount (50%). TSM¡¦s global integration means that a lot of players are relying on Taiwan. It would be geopolitical suicide for China, who also rely on TSM¡¦s chips. TSM is also diversifying locations with plants in Arizona and Europe, which are expected to be completed in the next 5 years.
+
+Second, TSM¡¦s MOAT is greater than any other company in the world. TSM manufactures around 90% of the world's advanced nodes. They have decades of accumulated process knowledge that even well-funded competitors with government backing have been unable to replicate, such as Intel, who is 2-3 generations behind TSM. On top of what they¡¦ve already achieved, they are also investing ~$40 billion in annual capital expenditure, with approximately $6 billion dedicated to R&D.  What this has led to is generating a higher portion of usable wafers, which no other manufacturer is capable of. With so much invested in RD, and their partnerships working with NVDA and Google to create these chips, they will continue to be at the bleeding edge for years to come.
+
+Third, and related to the second point, TSM is the backbone of the AI industry. NVIDIA, Google, AMD, and most major competitors are all paying TSM to produce their chips. There may be winners and losers, but TSM owns the sport. Apple alone generates ~25% of TSM¡¦s revenue. They¡¦re not going back to intel, they can¡¦t go in house, and Apple itself is more dominant than ever. After moving to their M chips, Apple¡¦s thesis paid off extraordinarily. I wouldn¡¦t be surprised if other players follow.
+
+Fourth, relative to other Mega cap stocks (MSFT, APPLE, NVDA), the potential upside for TSM is still huge. They have the 6th largest market cap at around 2.0 Trillion. With NVDA worth ~5.2 trillion, it¡¦s easier to see TSCM 3x than it is to see NVDA go to 15 trillion. The TTM PE of ~34x dropping to a forward PE of ~22x implies analysts expect ~35% earnings growth in the next year alone. For a $2 trillion company that's extraordinary.
+
+Fifth, TSM has not yet attracted significant retail investor attention relative to its fundamental quality. While dell and sandisk have gone parabolic, TSM has a lot of room to go vertical in the short term, and while it's up 2x in the last year, this treatment hasn't happened yet.",analysis,,
+"The decoupling is real, but it didn't just happen.
+
+On my numbers, the 30-day correlation between the four big hyperscalers and an 11-name semi basket is +0.08 as of 25 Aug against a 2015¡V2024 median of +0.66, but it's been under +0.40 for 67 straight sessions since mid-May and it printed ?0.18 on 29 July, so today isn't even a one-month low.
+
+The part that surprised me is where the break is actually coming from: average pairwise correlation within the semis is +0.68 right now, above their own 2015¡V2024 median of +0.59 and rising since June. Semis are still very much one trade.
+
+It's the hyperscalers that came apart, averaging +0.39 against a +0.64 historical norm. That reads less like the AI-capex/semi link breaking and more like the capex side splitting into separate stories, which is a different thing to be bullish or bearish about.",analysis,,
+"Nah, you¡¦re missing a few points in your premise and not understanding Burry¡¦s argument.
+
+First of all Blackwell is already available (was available for general purpose in July 2025).
+
+Second, Nvidia has already announced its next generation GPUs based on Rubin.
+
+Burry¡¦s argument wasn¡¦t about availability but depreciation instead.
+
+So, top of the line GPUs are required for model training whereas for inference it¡¦s more memory bound (due to the size of model being able to fit). Which can done with either cheaper cards like GeForce or A100 with higher memory (~90GB). Using a Blackwell chip for inference is highly inefficient, in terms of cost.
+
+Think of cars as an example, model training is similar to race cars whereas inference is more everyday driving. You can use an older generation race car for everyday purposes but it¡¦s not at all efficient. Same is the case for the new generation GPUs.
+
+Burry¡¦s argument was that CEO¡¦s extending the depreciation form 2-3 years to 5-7 years is wrong. This meant that companies will have to jump to the new generation (when available, usually 2-3 years cycle by Nvidia) or be left behind (as this is an arms race)",analysis,technical facts,
+"Funny contrast today. amsflow's sentiment gauge has Korea at 23 (extreme fear) after Hynix and Samsung got hammered, and the US is still at 69.
+
+I'm in Korea and the chip panic here feels way worse than anything NVDA or MU holders are showing right now.
+
+One of those two moods is wrong, I just don't know which yet.",reaction,,
+Why did NVDA suddenly shoot up at the end of the day today?,reaction,,
+"r/stocks, r/valueinvesting r/investing all upset the market mooned after fed raised rates and seem convinced that raising rates should lead to a recession and market correction.",reaction,,
+Up yesterday down today. Everything I sold puts on is getting whacked and so are my longs.,reaction,,
+"Diesel futures matter more to the economy than crude oil futures. Diesel futures are still at $6.5533/ gallon. Crude Oil will move stock futures, but diesel prices move the economy.",hot_take,,
+Down .75% today myself. Ended the week about flat despite extreme volatility in both directions,reaction,,
+"Averaging doesn't increase risk-adjusted returns; it increases your chances of breaking even but increases your losses if you don't.
+I repeatedly see people on this sub saying that one should keep buying in order to average down when they've experienced losses. Sometimes this is good advice, but it all depends on the merits of the stock itself. A priori, however, it doesn't do what many people think it does.
+
+Averaging down increases your chances of breaking even by lowering the price at which you break even. That's simple enough, and that's why people advise doing it.
+
+However, it also increases the stakes. It ups the ante. If you don't end up breaking even, you are now on the hook for bigger losses because you've pushed more chips to the table.
+
+This is a variation of a Martingale strategy, which offers zero risk-adjusted returns. In a Martingale, you simply double down on your bet until you win. If you are betting that a coin flip will come up tails, you double your bet with each heads. The reasoning for this is that the odds of continued losses are slim. After all, the odds that a coin flip comes up heads six times in a row are just 1.5%. By committing to this strategy in advance, you have a 98.5% chance of winning if you're willing to go six flips deep.
+
+However, your potential losses scale in accordance with your increased odds of winning. On that sixth coin flip, you are now wagering a very large amount in exchange for a small potential gain (presumably a 32:1, or 2^5, disparity). There's no risk-adjusted return here.
+
+In a nutshell, averaging down does exactly this. If it's a great stock and a great buy, sure. But don't average down because you think it's some free math hack. You aren't getting risk-adjusted returns simply by doing this. You're just increasing your odds of winning while simeultaneously increasing your losses if you lose.",analysis,,
+"Only way to break even is for the stock price to go up matching up to your average.
+
+Buying more stock as it plunges may bring down the average but if the stock doesn¡¦t go up to your average, you¡¦re just going deeper into the hole in absolute $ terms",analysis,arithmetic,
+"In a situation where companies can be nearly perfectly efficient due to automation, Operating expense will nearly vanish. If a bunch of people are out of work, they will no longer have the money to buy products at their current price levels. Thankfully, businesses can now offer products at extremely reduced prices due to the massive opex reductions, and they¡¦ll have to, because there will be no demand anymore.
+
+Increased corporate taxes on extremely lean companies could hypothetically fund UBI. I see this as the most likely outcome of full automation.",hot_take,,
+"WHOOP just raised $575M at a $10.1B valuation. Here¡¦s why I think this is a short when it IPOs.
+WHOOP announced their Series G today. $575M led by Collaborative Fund with Qatar Investment Authority, Mubadala, Abbott, Mayo Clinic, and a bunch of celebrity athletes (LeBron, Ronaldo, Rory McIlroy) throwing in money. $10.1 billion valuation for a company that makes a screenless fitness wristband on a subscription model.
+
+I think this thing is a short the moment it goes public and here¡¦s why.
+
+The valuation doesn¡¦t hold up to any scrutiny
+
+WHOOP reportedly did around $260M in revenue as of mid-2025. They¡¦re touting a ¡§$1.1B bookings run rate¡¨ but bookings and revenue are not the same thing. Bookings is cash collected upfront for annual subscriptions. That cash gets recognized as revenue over the life of the membership. It¡¦s a real metric but it¡¦s the kind of number you lead with when your actual revenue doesn¡¦t justify your valuation.
+
+At $10B on $260M revenue that¡¦s roughly a 40x multiple. Garmin does $5B+ in revenue with healthy margins and trades around 5x. Oura, the most direct competitor, was valued at $5.2B in 2024. You¡¦re telling me WHOOP is worth nearly double Oura? Based on what exactly?
+
+The Chase Sapphire promotion is inflating their subscriber numbers
+
+This is the part I think people are sleeping on. Since February, Chase Sapphire Reserve cardholders have been able to activate a Chase Offer for a full $359 statement credit on WHOOP¡¦s top tier Life membership. That covers the entire annual cost. The device is included free with the subscription. So you¡¦re getting the hardware and a year of their best plan for essentially $0 plus tax.
+
+Go look at any credit card deals community. People went nuts over this. They¡¦re stacking referral codes on top of the credit. People found old WHOOP 4.0 units at TJ Maxx for $26, used those to activate a free year, then upgraded with the Chase credit for basically two years free. Some people bought WHOOP apparel just to hit the $359 minimum because they don¡¦t even care about the tracker.
+
+The offer is one time per cardholder and expires May 12, 2026. There¡¦s no indication it renews.
+
+So when WHOOP reports ¡§103% subscription growth¡¨ and waves around that $1.1B bookings number, how much of it is coming from people who paid nothing out of pocket through a credit card promotion? Those subscribers have zero sunk cost. They¡¦re going to set a reminder to cancel at month 11 and bounce. That is a churn wave waiting to happen and it¡¦ll hit right around when this company is trying to show public market investors a growth story.",analysis,,
+"A robot rang the Nasdaq closing bell yesterday. The fund behind it ($BOT) is trading at a 151% premium over what it actually owns
+
+if you missed it, a wheeled robot from Dyna robotics rang the Nasdaq close on oct 13 for robostrategy ($BOT). cool photo but the fund is the more interesting part
+
+$BOT is a closed end fund that holds private robot companies. figure ai, apptronik, dyna, standard bots etc. None of them are public so this is basically the only way to get exposure.
+
+The catch is the price vs what it actually worth:
+
+- nav (value of the holdings) was 11.32$ a share at end of july
+
+- the stock traded at around 28$ on aug 20
+
+- thats a 151% premium (mentioned in their own SEC filing)
+
+And because $BOT is a closed end fund, there¡¦s no ETF-style mechanism to keep its share price close to NAV. in other words, if there's more demand, the premium can keep growing. If sentiment changes, it can unwind just as fast.
+
+This reminds me of destiny $DXYZ earlier this year, where price went up to insane premiums just to get pre IPO exposure to SpaceX & OpenAI.
+
+I¡¦m bullish on robotics as a long-term theme. but being bullish on an industry & paying the right price are 2 different things.",analysis,,
+"Well, CPI came in a bit hotter than expected.
+
+Headline at 3.7% vs 3.6% expected, core at 2.6% vs 2.5%.
+
+Stocks didn¡¦t seem to love that, and yields are moving higher.
+
+Seeing a lot of people here calling for another rate hike. Honestly wondering if today¡¦s numbers make that more likely.",reaction,,
+"My portofolio already dropped 7% in the past week, it's been pretty painful",reaction,,
+"We could debatably say that OKTA doesn¡¦t necessarily need AI revenue today for the market to price in future demand for cybersecurity as AI expands. Their core business is identity/access management and cybersecurity is integral to AI adoption
+
+As companies deploy more AI agents/automated systems, the need to secure both human and nonhuman identities will only become more important. Investors may be pricing in that LT opportunity rather than Okta¡¦s current AI revenue. Whether that justifies its valuation is a separate question
+
+Their revenue also grew revenue 11%, op income increased from $41M to $107M, FCF rose 40%",analysis,,
+"My comment is not a defense of Okta¡¦s valuation, I¡¦m only offering a possible explanation for its stock performance
+
+I agree that 11% revenue growth and limited AI monetization make its valuation difficult to justify, particularly given the competitive landscape. But markets are forward looking and investors can price in anticipated demand well before it translates into material revenue
+
+I also wouldn¡¦t dismiss the improvement in fundamentals entirely. That obviously doesn¡¦t justify a 246% rally on its own, but I think it is fair to say they are showing improved profitability and contracted revenue visibility
+
+Your skepticism about whether Okta can capture enough of the AI opportunity is valid. My point is simply that current AI revenue isn¡¦t necessarily what investors are trading on. Whether those expectations ultimately materialize is an entirely separate question",analysis,,
+"This selloff feels different¡K anyone else noticing this?
+Markets are clearly under pressure right now, but what stands out to me is how weak the bounces are.
+
+We¡¦re getting sharp moves down, and when we do get a bounce, it feels more like short covering than real buying. There¡¦s no real follow-through, and every push higher gets sold pretty quickly.
+
+It¡¦s a very different tone compared to earlier this year where dips were getting bought aggressively. Now it feels like people are using strength to reduce exposure instead of adding.
+
+Also noticing that bad news is actually being respected again. Yields, oil, geopolitics¡K it¡¦s all starting to matter at the same time.
+
+I¡¦m not trying to call a bottom or say this turns into something bigger, but the character of the market definitely feels like it¡¦s shifting.
+
+Curious how others are handling this.
+
+Are you buying into this weakness, or mostly sitting back and waiting for things to stabilize?",reaction,,
+"Great earnings, great news from around the world and great markets overnight.
+
+What a beautiful set-up for a green friday and nice weekend.",reaction,,
+"Holy hell WTI at $69.
+
+Hormuz traffic week over week tripled.
+
+Man oil doomers really got it wrong badly.",hot_take,assertion,
+is $GEV a good buy at the moment ? I want to buy in at market open tomorrow,reaction,,
+$MSFT was 465 on June 1st. It is now 365. Down 100 in less than a month or 27%. Lol,reaction,,
+KOSPI down -5% again. The previous 3 days might have just been a bear market rally lol.,reaction,,
+Mixed report from Aurora $AUR today with $1B cash vs $200-250MM spending per quarter means more dilution coming for shareowners. Over 400k driverless miles and forecasted 200 trucks in operation by end of year. More talk about TaaS in the call and shareholder letter.,analysis,,
+"China tech stack continue to pump. BABA BIDU KC
+
+well more like Hang Seng tech",reaction,,
+Anyone understand this after hours pump?,reaction,,
+"Costcos profit is not impacted by tariffs, inflation or other as much as traditional sellers. They also get amazing deals due to exclusivity and Kirkland lines are a haven for profit.
+
+It¡¦s also a retailer that gets more profitable in times of financial uncertainty due to more memberships and they occupy a niche with the hotdogs and chickens being known for losing money which makes consumers like them and trust shopping there that they won¡¦t be exploited.
+
+Walmart trades at 40x for a semi similar reason but doesn¡¦t have these other values.",hot_take,,
+"CAPR: My Current Favorite Biotech
+CAPR: A Biotech with Enormous Potential in 2026
+
+This isn¡¦t financial advice, just my own DD. Disclaimer: I have a long position in CAPR ($10.69 average)
+
+TLDR: CAPR has FDA approval decision for their drug, Deramiocel, on August 22nd, 2026. I think their phase 3 data looks fantastic and has a strong chance of being approved. If it is approved, I predict that this stock will be trading around $60 per share (over $70 per share if given a broad label by the FDA) by the end of summer. There is potential for it to be trading over $100 per share by the end of 2026 if FDA gives a broad label including treatment of cardiomyopathy.
+
+This is my favorite biotech stock right now. It is currently trading right around $34.42 per share ($2 billion market cap). I think this stock will almost double in value (\\\~$60 per share) by mid-to-late summer this year. CAPR has developed a drug called Deramiocel which treats Duchennes Muscular Dystrophy, a serious pediatric disease that primarily affects boys.
+
+\*\*1. FDA Approval\*\*: CAPR received a rejection letter for the drug last year from the FDA, but it was based on their phase 2 study data. CAPR found significant positive effects of their drug in the phase 2 study, but it was a small sample size, so the statistical significance was found using non-parametric analysis (meaning it wasn¡¦t a normal distribution, which makes sense considering the small sample size). The FDA rejected it based on that analysis method.
+
+CAPR finished their phase 3 study in late 2025 and announced top line data from it in December 2025, which revealed they had hit their primary and secondary end points of the study. That news skyrocketed the stock from $6 per share to settling around $25 per share.
+
+The phase 3 ¡§Hope¡¨ study has a rigorous study design and much larger sample size than their phase 2 study. CAPR resubmitted their application for Deramiocel to the FDA in early 2026 and the FDA accepted the application, and set a decision date for August 22nd, 2026. That is the absolute latest we will find out the decision, because there¡¦s a chance it could be announced sooner than that (due to the drug being a treatment for a serious, rare pediatric disease). CAPR held a presentation at a medical conference in early March which provided much more in depth analysis of their phase 3 results, and the data looks fantastic. Deramiocel hit not only their primary end point, but all secondary endpoints.
+
+When CAPR received the CRL last year, there were no CMC issues mentioned in the CRL by the FDA. Therefore, I think the FDA approval odds for Deramiocel are very high (90-95% in my opinion). If the drug gets approved by the FDA, CAPR stock is going to sky rocket again, and I predict it will settle around $60 per share, and that is my conservative estimate.
+
+\*\*2. Patient Population\*\*: There are a couple more catalysts that could send it higher before the end of the year. Deramiocel was given Orphan Drug Designation by the FDA for Becker Muscular Dystrophy (a less serious case compared to DMD). If the FDA gives a broad label to Deramiocel, meaning it can be used to also treat BMD, then that will be a big increase in patient population for the drug. There are about 15,000 people with DMD in the US, with 350-400 new patients diagnosed each year. There are about 5,000 people in the USA with Becker MD (60-120 new patients each year). If Deramiocel is given a broad label to treat even cardiomyopathy, then that be a massive increase in potential patient population. My more aggressive prediction is that CAPR could potentially hit \\\~$100 per share before the end of 2026, if these other catalysts happen.
+
+Those patient numbers are just for the US. CAPR has said they will look to get EU approval after they get approval in the US. There are 25,000-30,000 people with DMD in the EU. There are 8,000-12,000 people with Becker MD in the EU.
+
+\*\*3. Deramiocel Production Capability\*\*: CAPR has a production facility in San Diego, CA. They are currently able to produce enough Deramiocel to treat 500 patients each year. However, their facility has additional clean rooms to expand production capabilities. The expansion is supposed to be completed in late 2027. After expansion, CAPR will be able to produce enough Deramiocel to treat 3,000 patients each year. They are also currently stockpiling Deramiocel as they await the upcoming FDA decision. The rumor (from a StockTwits user named LineBacker04, who has done extensive DD on CAPR) is that CAPR will have enough Deramiocel to treat an extra 300-350 patients this year. CAPR has not said how much Deramiocel will cost, but their only DMD drug competitor, which is developed by SRPT, costs $3 million per patient. That SRPT drug, Elevidys, has toxicity issues and the drug has a warning label. If CAPR charged $3 million (I don¡¦t think they¡¦ll charge that high) for Deramiocel, then they already have the potential to make $1.5 billion worth of Deramiocel, and $9 billion by the end of 2027. If they charge $1 million for it, then they can currently produce $500 million already, and $3 billion by end of 2027.
+
+\*\*4. CAPR Financials & FDA Approval Impact:\*\* CAPR is that they are good on cash through 2027, so they won¡¦t be making offerings/diluting any time soon if at all. They have over $300 million cash on hand. They have about $14.5 million in debt.
+
+If CAPR receives FDA approval, I don¡¦t think it will be a ¡§sell the news¡¨ situation either, for a couple reasons. First, there is a fairly high amount of shorted shares of CAPR right now (over 19%), which could cause a short squeeze if approved. Second, CAPR will most likely receive a PRV from the FDA of Deramiocel is approved, since it treats a rare, serious pediatric disease. CAPR can sell that PRV for $100-$200 million, or they could use it for their Stealth X vaccine in their pipeline (still early development for that, but research is going to ramp up for that in 2027). Third, CAPR will receive an $80 million milestone payment from Nippon for FDA approval.
+
+All in all, I think CAPR has a high change to 2X by this summer, and potentially triple or even quadruple (best case scenario) by the end of 2026.",analysis,,
+"I think in the real economy (not stock market), people and companies are expecting the worst.
+
+Think about your colleagues, friends, family. Are they already reining in discretionary spending (luxury goods, luxury holidays) due to the uncertain economic outlook?
+
+People often forget the US economic growth engine is consumption. And when people don't feel confident of the future, they save rather than spend. Everything else flows from there, businesses cut spending/investments and freeze hiring/retrench due to weakened consumer demand, Fed policy reacts to this, they are all interlinked. You are already seeing the early signs with consumer confidence reports because they are leading indicators (red flags that show up first when things are heading south)
+
+I am not suggesting to short but I think we are heading into unchartered waters because of the new administration. Best to tread carefully.",hot_take,,
+"ngl today felt like pure chop, SPY just grinding sideways while everyone waits on CPI and earnings. volume felt kinda meh too. sitting mostly cash here, not seeing many clean setups.",reaction,,
+17% green on Sandisk today is absolutely absurd. No way tomorrow doesnt give up at least some of that.,reaction,,
+"Today was a great day. But also a very weird one.
+
+Rare that just about everything goes up on the same day",reaction,,
+When will bears realize that the market doesn¡¦t necessarily pump because of the exact scenario that trump is talking about but because of the fact that he¡¦d even come out and say something like that in the first place?,hot_take,,
+I can't believe the market is buying into this shit again.  Leaving and letting Iran control the straight would be a massive embarrassment for trump.,reaction,,
+"SPY: New all-time highs on -40% volume? What gives?
+I've been staring at the SPY chart and noticed something that doesn't sit right. Since the March 30 trough, SPY hasn't just recovered.
+
+It was in fact 18% above the trough and 8% higher than the old high.
+
+But volume tells a completely different story.
+
+Average daily volume since the trough is 53.8M shares, compared to 88.3M in Q1.
+
+That's a 39% drop. It dropped fast and has flatlined around 48M, roughly half the Q1 average.
+
+So what's going on?
+
+EDITs:
+
+The numbers are for SPY only. I did check across major S&P500 indexed ETFs (SPY+VOO+IVV+SPLG), in aggregate the total volume did drop 38% post the March trough. Same story as SPY. So looking at SPY seems sufficient.
+
+SPY volume by year below. 2024 saw low volume but had a great run. So low volume is not be bad necessarily according to history. BTW, has SPY volume been trending down since 2020?
+
+¡´ 2020: 100.4M (avg daily volume), +17.2% (return)
+
+¡´ 2021: 73.8M, +30.5%
+
+¡´ 2022: 94.8M, -18.6%
+
+¡´ 2023: 81.9M, +26.7%
+
+¡´ 2024: 57.4M, +25.6%
+
+¡´ 2025: 72.4M, +18.0%",analysis,,
+Wild after hours. Qqq up m 1% to down almost .5%,reaction,,
+Googl now trading at around what I originally paid per share in 2009 pre-split,reaction,,
+"4pm in NY time is 4 am in Hong Kong. Its stock market isn¡¦t open at 4am. You can¡¦t execute a perfect arbitrage cause they¡¦re not trading at the same time. The premium accounts includes not only redemption fees, currency bid ask spreads, and most importantly having to carry that risk on your books for a few hours",analysis,,
+qcom my best stock today need it to do things,reaction,,
+"Another day, another inexplicable drop in energy equities.
+
+We're in the middle of an energy crisis with no easy way out, one that gets worse literally by the day, a crisis that's the primary contributor to soaring inflation, and people are selling energy equities???
+
+Let's take a look at CVE which is down more than 2% today. It's got a pe of 12.6, a forward pe of 9.5, ps of 1.58, forward ps of 1, FCF yield of ~9%, dividend yield of ~2%, pb of 2.5, and EV below market cap.
+
+I can see why people are dumping this to buy AAPL at a $5T market cap lmao",analysis,,
+This why so many people are freaking out. These AI companies are priced as if they are going to replace vast numbers of professionals. If they do or don't it is a problem. Spacex has a valuation that is more than all the real estate of Manhattan.,hot_take,,
+"Asymmetric upside. The worst a stock can do is go to zero, on the other hand, you can 4x your money.
+
+OpenAI just beat the output of all human mathematicians combined. The 2022 Fields Medal winner said he was blown away and that OpenAI solved basically everything he had been working on. Terrance Tao said that the solution to Quasi Reimann was remarkable, and it chained together a bunch of ideas in a novel way that no human mathematician would have ever come up with. He also said the number of problems OpenAI solved was remarkable. One company working for just a few months just surpassed the entire output of humanity, think about how incredible that is and what the implications are.
+
+If that can be achieved in other fields, the value is basically incalculable.
+
+Memory prices are also projected to signficantly flatten after 2027.",hot_take,not directly infer,
+"Today is a dark day for traders
+It does not matter if you invested in GME, made money on NOK, or you are just interested in the stock market.
+
+Today different brokers took down from MILLIONS of retail traders the opportunity to partecipate actively in the stock market to save some billionaires hedge funds.
+
+In the last generation most of the people thought about the stock market as something abstract and only reserved to the richest getting richer, only having a clue about what Wall Street is thanks to movies.
+
+For few years in wich the possibility to partecipate was estended to a lot of retail users, and guess what happened? Most retail users (up to 80%) lost money having no idea what they were doing.
+
+In the last few weeks GME has been the opportunity for normal people to take something back from the people controlling the market, and when they were finally succeeding, guess what?
+
+They cut us out.
+
+I do not know how today will be called but it will go down in history books after the Wall Street Crash of 1929 and the crash of 2008.",reaction,,
+"Do not understimate this as something about America (I know that the majority of this happened there), broker all over the world did the same thing. It's not about Wall Street vs RobinHood users, it's about hedge funds and billionaires vs the 99.9%",reaction,,
+"It clearly affected the market, it was clear manipulation of an active situation. It was a pure power move to leverage the Stocks and it had only one, clear beneficiary: those who shorted the stock. At a minimum any customers of those brokerz need to leave them for a broker who didn¡¦t pull this shit. Optimally they should be punished by the SEC and the judicial system, hard. I am happy my (European) broker did not do anything but feel monumentally pissed on behalf of those affected.",hot_take,"manipulate, assertion",
+"The markets going to be non stop chaos until this dude is gone, nothing will get done. No innovations will be made, no real investment outside of superficial tokens to further manipulate markets will happen and it is giving the green light for every single shit heel, scammer and charlatan to lie, cheat, con, grift and steal everything that isn't nailed to the floor. If the president is doing it why not, right?? This is not sustainable.
+
+On a side note I would like to see a word count of how many times that semi illiterate bastard describes something as beautiful.",hot_take,,
+"Apple is pretty overpriced right now
+Look at this:
+
+I know Apple has become a safe haven against AI akin to Walmart or Coca Cola, but the valuation is nasty right now. At 342 dollars per share;
+
+A PE of 39 and a forward PE of 37 does not reflect their 8% EPS growth. It's not a growth company.
+
+The massive upgrade cycle from the iPhone 17 - it was really popular. It pulled forward demand, now fewer consumers will be looking to buy a new phone anytime soon since they have the 17.
+
+Skyrocketing AI chip demand has sent memory prices soaring. Apple's gross margin suffers, down from over 49% to 46.5%. This made them raise prices:
+
+A $100 price hike on the iPhone 18 Pro to offset those memory costs backfired, forcing Apple to slash production orders by up to 20%. https://finance.yahoo.com/technology/ai/articles/apple-cuts-iphone-18-pro-181700565.html
+
+Delaying the cheaper, standard iPhone 18 until next spring leaves a huge hole in the lineup for the critical holiday shopping season.
+
+Plua they're going to be stuck renting compute in the future if AI pans out.",analysis,,
+"Worth remembering this is a report of talks, not a signed deal. In a take-private the upside is basically capped at the offer price, so once trading settles the stock usually sits a bit below the per-share price, and that gap is the market's estimate of the risk the deal falls through.",analysis,,
+"Your math is accurate. However it doesn't really matter. I made basically the same post a few weeks ago. Stock has ripped 25% since. I sold chunks at $118 and $125 using the same rationale. My entry was 5000 shares between $6 and $27 though so my rationale was alot different. I covered my cost basis by 5-10x and let the remaining 3500 shares ride, so I have nothing to lose. But this company might be the fastest growing company in history. The only thing limiting their growth is their lack of a sales team, but that is also their strength. They don't have to try to sell their software. People are begging them for it. Plus their partnership with Accenture allows Accenture to do sales for them.
+
+At the end of the day if you think they are like NVDA, that might be logical. They are selling software. They don't have to manufacture graphics cards. They have 0 competition. Microsoft tried. Immediately threw in the towel with Fabrics a few years ago. Everyone is arguing about the AI bubble and infrastructure spend and who the winners and losers will be. There has almost never been a company like Palantir. They will win regardless. They are already so fundamentally integrated into the US Government that they are impossible to remove at this point. Every business that signs them faces the same dilemma. And every business that doesn't immediately starts to fall behind. Its a nasty spot to be in. These companies aren't spending $10m a year on PLTR and increasing what they spend every year because the software doesn't work. It becomes more integrated and essential and effective every year. It works too good. It works so good that all of these companies decide that they would rather spend $10+ million because it saves them at least that, if not drastically more. See Airbus. Then every competitor of those companies realizes it and has to get on board as soon as possible. It was their entire go to market strategy. They entered almost every industry imaginable and worked with exclusive partners. Now everyone in every industry needs the software to compete.
+
+People fundamentally do not understand what PLTR does or how they do it. They never have, especially Wall Street. It feels like last month when ""analysts"" were saying its a $5 stock that will be out of business soon. Those same analysts are now calling $265 price targets, or just initiating coverage. Where have they been? Well except some of us that have been intently following them for the better part of the decade. If you only bought them in 2025 you were late to the party. You haven't seen them drop 80% and been able to hold them because I have a feeling you don't really understand what they do either. Until you do understand, you are better off not holding them. When Michael Burry makes some idiotic tweet comparing what they do to what Anthropic does and the stock sells off 40% in a month you know people have no idea. If you do, you don't worry about it. If you are like most, you panic sell.
+
+But at the end of the day, AI is not going anywhere. Regardless of who wins or what the consolidation looks like, Palantir is the layer that any AI will have to run through, due to their ontology and data sovereignty technology. As most of us who have been with them since the beginning have believed, PLTR is the next Microsoft. That means I don't really care what version of web browser wins the browser wars, they all run on Windows. PLTR is the Windows of the AI era, and that era is just getting started. So, skies the limit.",hot_take,,
+A massive huge waste of money for them. Just keep building the rams and storage is enough.,hot_take,,
+Any logic why people are selling after hours?,reaction,,
+"Broadcom is trading on 2027 projections -- looking forward to clients going into full production that are not currently in the numbers. Also interesting tidbit that Hock believes XPUs can overtake GPUs for AI in the future. Very bullish call, hence the price action. Expect upgrades tomorrow.",analysis,"upgrade, data support",
+"AVGO jumped during the call. These are my crude notes about what the market was moving in response to so you can find that part of the transcript later:
+
+Start: around 312.
+
+Our accelerators from our 3 customers continues to grow as each moves towards self sufficiently. Further to these 3 customers we are working with other prospects on our own AI accelerators. Last quarter, one released production to Broadcom and have characterized them as a customer for XBUs. And have secured 10 billion of AI revenue for XBUs and reflecting this we reflect outlook for AI revenue to imporve significantly vs. last quarter.
+
+Jump from 306 to 312.
+
+Turning to networking. 3 tiers of networking. Tomahawk scales to two tiers, lower latency more output. Now need to scale across data centers. Cx are facing challenges as they scale to beyond 200k compute notes. Scale up is a difficult challenge when you try to create substantial bandwidth to share memory between clusters. Mentions NV-link. However, we have ethernet with OpenAI that can ¡KToday lunching Jericho 4 to handle clusters beyond 200k. 51.2 TB/sec buffering, intelligent congestion closes to handle clusters beyond 200k compute nodes crossing bigger data centers. Know the biggest challenges of larger scale compute will be in networking. In the past 3 years, everything AVGO has developed for Eth networking is designed for scale up, scale out, q4 2025, expect networking..,
+
+Jump from 312-316
+
+CFO Guidance, operating margins 70%, inventory up 8% in anticipation of demand next quarter. Cash dividends, guidance for Q$ blah, jumping to 318.35.
+
+316-318
+
+So, a short section of the call transcript is correlated with the enthusiasm.
+
+I am happy with earnings. I am locked-in considering capital gains taxes in most accounts. However, I overweighted AVGO over the last week in my retirement account. Given the bump in the call, and its very high PE, I am scaling back AH. I think AVGO is the most overvalued stock I own. It will take a lot of growth over a long period of time to get them to a PE in the high 20's range if the price doesn't move. I do think ASICs will become increasing crucial and eat market share of NVDA eventually, if Jensen doesn't do a lot with energy efficient ASICs. NVDA data center growth was 5% sequential quarter for NVDA which is BAD for NVDA. The CFO implied this was China data center missing and they might have 50%-ish annual growth. I think NVDA is still growing faster, so I will maintain a higher NVDA weight than AVGO. I'm looking at more google and more TSM, slightly more down-to-earth vehicles, plus weak hedges, to get me through any Sept selloffs without panic selling.",reaction,"only note, no  assertion",
+"Congrats on 50k dow - next up 60k, 750+ SPY. 2026 going to be absurdly profitable",hot_take,,
+"I feel like we live in a simulated world/market. Who decides ""OMG Bitcoin is at $60k this is the price of a lifetime let me break this fall and load the truck"" right back to $70k. If I'm seeing Bitcoin fall like a rock, I'd be shiding my pants, not excited to buy the dip..Same for mstr",reaction,,
+"There were several reports of explosions in Iran on social media, and it's now been reported as false.
+
+I was confused myself when I pulled up one of my futures trackers and went to investigate. I'm glad I'm at least making an honest attempt of returning to where things were for me back in 2019-2020, but I still have a long way to go.",reaction,,
+The average PE of all time is 16.2. Your forward PE is 30% higher.,analysis,historical PE,
+Papa John down 17% after a dividend cut. Time to consider a slice of $PZZA?,reaction,,
+SPCX is that kid on your high school group project that does no work but tries to get equal credit and the same grade from other stocks in its funds.,hot_take,,
+"Ya I'm a professional analyst, have been looking into this.
+
+The memory companies are all trying to lock in HBM volumes on something like 50% of their revenues. Take or pay ideally. If they're successful in this, that would basically hedge a good chunk of their profits for something like 5 years.
+
+In the event of AI demand evaporating. Half of their revenue would still be exposed to spot prices which would then tank. there is no backlog of consumer demand that could possibly step in to replace that volume at that price.",analysis,,
+"Negative free cash flow does not mean negative revenue. And Google Cloud¡¦s revenue is growing 80% YoY with expanding margins.
+
+They only need to offset a subset of the spend with external money.",analysis,,
+"If we don't see earnings momentum from all this capex, investors will start to get pissed off. Obviously they're not idiots and they must have done the math but it's extremely frustrating seeing DRAM companies fly through the moon on this unmoderated demand for datacenters..",hot_take,,
+"Sharp decline in murban crude, but why?",reaction,,
+I think one thing people fail to realzie is that Trump is a bully. His explanations doesnt have to make sense. The bully doesnt have to explain why he punches all he cares about is whether his subjects submit.,hot_take,,
+"AMD beat on revenue, beat on EPS, guided Q3 half a billion above the street, and still fell 9% after hours. A lot of the ""margin miss"" cover
+AMD reported last night and the print was better than the setup asked for. Revenue $11.5B against a street around $11.3B, up 50% year over year. Non-GAAP EPS $1.66 against about $1.61. Data center did $6.7B, up 107%, now 58% of the whole company. And they guided Q3 to roughly $13B when the street was sitting at about $12.5B, so they beat the guide by half a billion.
+
+The stock closed up 7% into the print at $518.58 and then dropped about 9% after hours to around $472.
+
+The explanation going around this morning is a gross margin miss, 54% against a 56% expectation. I'd check that one before repeating it. AMD reports two gross margin numbers. GAAP came in at 54%, non-GAAP came in at 56%. The 56% everyone is calling ""the expectation"" was AMD's own non-GAAP guide, so the comparison being drawn is a GAAP result against a non-GAAP estimate. Like for like, the margin landed exactly on guidance and was up about a point sequentially.
+
+So if the margin hit, why the drop.
+
+Two things I'd point at, and I don't think either one is dramatic.
+
+The first is just the run-up. The stock was already up 7.7% on the day going into the print, and it's up something like 190% over the past year. Consensus wasn't really the bar that mattered. Whoever was buying at $518 that afternoon needed more than a $500M guidance beat, and they didn't get it.
+
+The second is more interesting to me, and it's in the guide rather than the print. Q3 revenue is guided up about 13% sequentially. Q3 gross margin is guided at about 56%. Flat. Same as the quarter they just did.
+
+That flat line is worth sitting with, because Jean Hu explained the mechanism on the call herself. She said margin is primarily driven by business mix, that server CPU growth is accretive, and that the data center AI business currently sits slightly below the corporate average. So the fastest-growing part of the company is also the part that dilutes margin as it grows. Data center is already 58% of revenue and they guided it to more than double again in 2027.
+
+Put those together and I think you get the actual question. Nvidia holds gross margin in the seventies, a lot of which is CUDA making it expensive to leave. The bull case for AMD needs its margin to walk up toward that as Instinct matures. But the more the mix tilts toward the exact product driving the growth, the harder that walk gets, at least until volume brings the cost down. Management does expect improvement through 2027 as server scales and embedded recovers. That's a real answer. It's also a 2027 answer.
+
+Worth saying the demand side isn't the argument here. Lisa Su said customer pull for Helios is running ahead of their own forecast, it ships in Q3 and ramps into 2027, and the named commitments aren't small: Anthropic at up to 2 gigawatts of MI450 with the first gigawatt in H1 2027, Microsoft putting Helios on Azure, OpenAI and Meta at multi-gigawatt scale.
+
+Almost none of that is inside these numbers.
+
+One thing that keeps this honest in the other direction. Since 2023 AMD has missed consensus exactly twice, both times by fractions of a cent, and the stock still closed lower the day after earnings in seven of twelve reports. If last night's move holds through today's close, that's eight of thirteen. At some point a pattern that consistent stops being about the quarters and starts being about what the price already assumes.
+
+No verdict from me, I'm trying to frame the bet rather than call it. For anyone who follows this closely: does a flat 56% guide into a quarter growing 13% sequentially bother you, or is mix dilution just what taking share costs and you'd expect it to resolve once MI450 volume lands? And what gross margin are you actually underwriting for 2027?
+
+(Numbers from AMD's Q2 2026 release, August 4 2026, and the Q2 earnings call. Information, not advice, so tell me where I've got this wrong.)",analysis,,
+"Every time AMD beats they drop. I just buy the dip. Should go up when market opens.
+This market is just a casino tbh",hot_take,,
+SPCX can't even hold up on a bright green day. The hype seems dead. Share unlock will double the float. Puts just feel like such free money¡K,hot_take,hype seems dead is assert,
+There is literally zero reason for RIVN to move like LCID today. Rivian¡¦s balance sheet is much stronger and they¡¦re getting a tailwind from the extended instability in oil,reaction,,
+"Microsoft is now cheaper than the April 2025 Tariff crash, yet TTM EPS is up 30%. Huge bargain
+I had previously sold off Microsoft at $460, but I think they are probably one of the biggest bargains in big tech right now:
+
+Very favorable exposure to OpenAI(20% revenue sharing agreement and rights to their models). Even if OpenAI keeps burning cash, they are benefitting from their top line revenue growth. When the revenue share agreement expires, OpenAI will likely achieve profitability, at which point Microsoft's ~25% OpenAI stake will be worth a lot.
+
+Very strong Azure cloud growth
+
+Enterprise software remains strong.
+
+Despite the initial flop of Copilot, it's been improving a lot in recent months. Anecdotally, I know of a lot of people across a wide variety of professions that have started using it and are satisfied with the results.
+
+They are beginning to roll out custom AI chips to compete with Nvidia.
+
+Capex is well balanced, IMO. Not excessively aggressive like Google or Meta, but still significant enough to maintain growth while avoiding excessive risk. They are saving enough free cash flow to cover dividend and a small amount of buybacks without relying on Debt.
+
+Shift from fixed cost billing to usage based billing on their AI products will likely result in substantial revenue growth.
+
+Trading at less than 20x forward P/E despite 30% annual EPS growth.
+
+I can easily see MSFT doubling in value in 1-2 years with how cheap they are right now.",analysis,,
+"The thing is, most people, especially on this sub, are chasing the 5-10x stocks which is extremely high risk high reward. MSFT or ETFs are the safest option but with modest potential. I also agree that MSFT is likely to 1.5x - 2x in the next 1-3 years, but there are other large cap stocks that can 3-5x and people are looking for those.",hot_take,,
