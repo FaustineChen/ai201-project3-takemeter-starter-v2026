@@ -51,26 +51,27 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall accuracy
 
 <!-- Your criterion. It must name a number. -->
-
+Overall accuracy on the held-out test set is at least 0.70 in every one of the three seeds.
 
 
 **Why this target:**
-
+About 52.7% of my 203 posts are `hot_take`, so a model that always guesses `hot_take` already gets about 0.53, and 0.70 is about 17 points above that. The test split is about 30 posts, so each wrong prediction costs about 3.3 points and 0.70 allows at most 9 errors. I did not set it higher because I only have about 200 examples and the `analysis`/`hot_take   boundary is a judgment call even for me.
 
 
 ---
 
-## 2.
+## 2. Per-label performance
 
 <!-- Your criterion. -->
+Per-label F1 on the test set is at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction`, and all three must hold in every one of the three seeds.
 
 
 
 **Why this target:**
-
+A model that always says `hot_take` already scores an F1 of about 0.69 on that label, so anything under 0.75 would not show it learned anything. `analysis` (50 posts) and `reaction` (46 posts) are each about a quarter of my data, so only about 7 posts of each land in the test split, and one miss moves F1 by roughly 0.07 to 0.10; that is why their targets are looser. They are also the labels where my rules were hardest to apply (a checkable fact for `analysis`, dependence on a just-happened event for `reaction`).
 
 
 ---
@@ -78,35 +79,35 @@ whether you hit them:
 ## 3.
 
 <!-- Your criterion. -->
-
+On the test set, at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16), in every one of the three seeds.
 
 
 **Why this target:**
-
+This is the boundary my own labels were least stable on: the roughly 5 posts that flipped in my blind recheck all sat between `analysis` and `hot_take`. I check the two directions separately because pooling can hide a failure (5 of 7 analysis posts wrong and no hot_take wrong pools to only 22%). The thresholds differ because the denominators differ (7 vs 16), and with only 7 posts the possible rates are 0%, 14%, 29%, so 30% means at most 2 errors.
 
 
 ---
 
-## 4.
+## 4. Consistency
 
 <!-- Your criterion. -->
-
+My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30).
 
 
 **Why this target:**
-
+The staff set is labelled under the staff taxonomy, and my own `analysis` definition has extra rules that the staff rules may not share. Chance agreement on three labels is about 33%, and 70% means my rules and the staff rules mostly line up while leaving room for the posts that were chosen because they are ambiguous. If I fall below it, that points to inconsistent labelling on my side rather than a model problem, which is what I need to know when diagnosing a missed model criterion.
 
 
 ---
 
-## 5.
+## 5. Confidence
 
 <!-- Your criterion. -->
-
+On the test set, accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third, in every one of the three seeds.
 
 
 **Why this target:**
-
+The model's confidence is only useful if "more sure" actually means "more often right". My `analysis`/`hot_take` boundary is fuzzy, so the model should be less sure on exactly those posts. If the two thirds score about the same, the confidence value tells me nothing. A third of the test split is about 10 posts, so one post is 0.10; requiring a 0.15 gap means the top third must have at least 2 more correct than the bottom third. Measuring the gap rather than an absolute accuracy so this does not just repeat criterion 1.
 
 
 ---
