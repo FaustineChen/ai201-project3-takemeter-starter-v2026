@@ -95,7 +95,7 @@ TakeMeter sorts r/stocks posts into three labels: `analysis` (a conclusion suppo
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
 
-If the post names a fact concrete enough to check (e.g. "<20x forward EV/EBITDA", "SIPC covers $500k") and uses it to support a conclusion, it is `analysis`, even if the tone is heated. If it only gestures at vague metrics ("forward PE and other metrics", "strong fundamentals") or offers only personal interpretation with no fact, it is `hot_take`. If it draws no conclusion and just describes something that just happened, it is `reaction`.
+If the post names a fact concrete enough to check (e.g. "<20x forward EV/EBITDA", "SIPC covers $500k") and uses it to support a conclusion, it is `analysis`. If it only gestures at vague metrics ("forward PE and other metrics", "strong fundamentals") or offers only personal interpretation with no fact, it is `hot_take`. If it draws no conclusion and just describes something that just happened, it is `reaction`.
 
 
 ---
@@ -180,15 +180,26 @@ Overall, it expresses optimism about the inclusion in the S&P 500.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** "distilbert-base-uncased"
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
+EPOCHS = 10
+LEARNING_RATE = 2e-5
+BATCH_SIZE = 16
+MAX_LENGTH = 256
 
 **Anything I changed from the defaults, and why:**
+**Max length: 128 → 256**
+In the training set, 55.9% of `analysis` posts (19 of 34) were longer than 128 tokens, compared with 13.3% of `hot_take` posts (10 of 75) and 18.8% of `reaction` posts (6 of 32). The median `analysis` post is 154 tokens, so the evidence behind an argument was often cut off. I chose 256 rather than 512 because `padding="max_length"` makes compute grow with the limit, and 512 would only add the few longest posts (the longest are 690 to 765 tokens). I did not compare 128 and 256 directly, so this choice rests on the truncation counts, not on a score difference.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
+**Epochs: 3 → 10**
+With 3 epochs (about 27 updates), validation accuracy was 0.516 and macro F1 was 0.227 at every epoch. That equals always predicting `hot_take` (16 of 31 validation posts), so the model had only learned the class prior. With 10 epochs (about 90 updates), validation accuracy rose to 0.774 and macro F1 to 0.756. Validation loss kept falling through epoch 10 (0.997 to 0.669), and epochs 9 and 10 gave the same scores, so I kept 10. I left the learning rate at 2e-5 because more epochs alone fixed the collapse.
+
+**Split sizes:** 
+<!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
+'reaction' has only 7 examples in the test split.
 
 
 
@@ -205,15 +216,15 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I wrote the accuracy and F1 criteria myself, then asked the AI to explain what the other areas (balance, consistency, confidence) mean and how they are usually tested on a classifier like mine.
+- *What came back:* An explanation of each area and how it is measured, plus draft criteria with numbers and reasons. It also suggested label balance as a criterion.
+- *What I changed:* I dropped balance because I control it by hand and it doesn't test the model. I rewrote the accuracy reason in my own words, changed confidence to a top-third vs bottom-third gap of 0.15 so it doesn't repeat accuracy.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I gave the AI my three label definitions and asked it to pre-label my collected posts, and to flag the hard cases while describing which label definitions might need to be more explicit. I then checked its labels and flags myself.
+- *What came back:* Pre-labels with a short note for each post, plus a list of hard cases with the competing label and the reason each was hard. While we discussed the `analysis` boundary, it suggested a general deletion test: remove every unverifiable statement and see whether the checkable facts still support the conclusion (supported → `analysis`, not supported → `hot_take`).
+- *What I changed:* I did not adopt the general deletion test. I rewrote the `analysis` definition so that the fact must be concrete enough to verify but does not need a number or a cited source, and it must still hold after removing anecdotes ("I know people", "anecdotally"). A vague reference such as "strong fundamentals", "numbers look good" or "other metrics" used as a reason does not count as checkable, so only anecdotes are deleted before judging.
 
 **Pre-labelling disclosure:**
 
