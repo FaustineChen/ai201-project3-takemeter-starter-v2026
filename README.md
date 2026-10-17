@@ -45,7 +45,7 @@ torch:  2.14.1+cpu
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-
+TakeMeter sorts r/stocks posts into three labels: `analysis` (a conclusion supported by a specific, checkable fact), `hot_take` (a confident claim with no support), and `reaction` (an immediate response to something that just happened). The question is whether a fine-tuned small model can tell a well-supported argument apart from a loud opinion. That matters in a retail-investing community, where both often sound equally confident.
 
 ---
 
@@ -57,34 +57,45 @@ torch:  2.14.1+cpu
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `hot_take`
 
-**Definition:**
-
-**Example 1:**
->
-
-**Example 2:**
->
-
-### `label_two`
-
-**Definition:**
+**Definition:** A confident claim or prediction about a stock or the market, with no support offered.
 
 **Example 1:**
->
+> the key to make money in this market is buy calls on stocks that are extremely overbought and keep shorting those that are extremely oversold. works about 99.8% of the time
 
 **Example 2:**
->
+> SMCI is a cheap stock compared to DELL & HPE. It will catch up soon IMHO.
+
+### `analysis`
+
+**Definition:** A conclusion backed by a specific, checkable fact (a figure, a filing, a rule, or an event).
+
+**Example 1:**
+> For anyone with an account there: the stock dropping and your account being at risk are two different things. Your securities are held separately from the company's own money, and SIPC covers up to $500k per customer (of which $250k cash) if a US broker fails. This report is a congressional panel, not a regulator action, so nothing changes for accounts today. If the cash part worries you, that's the bit to keep under the limit.
+
+**Example 2:**
+> AVGO is fundamentally supported. Based on forward guidance, both NVDA and AVGO trade at <20x forward EV/EBITDA and have 50%+ net margins. By comparison, AMD is over 60x EV/EBITDA with 20% net margins. I just don't see AMD growing into its current valuation.
+
+### `reaction`
+
+**Definition:** An immediate response, observation, or question about an event, price, or data point that just happened, which states it without drawing a conclusion.
+
+**Example 1:**
+> 30Y hit 5.703% today, fresh new 24 year high. Please do your part to help markets by buying this and become a bagholder of US debt. Thank you for your attention to this matter.
+
+**Example 2:**
+> SPY finally went red like last 15 minutes... after 10Y absolutely exploded following PCE today. Down only 0.2%.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `hot_take` vs `analysis`
 
 **The decision rule I used every time:**
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
 
+If the post names a fact concrete enough to check (e.g. "<20x forward EV/EBITDA", "SIPC covers $500k") and uses it to support a conclusion, it is `analysis`, even if the tone is heated. If it only gestures at vague metrics ("forward PE and other metrics", "strong fundamentals") or offers only personal interpretation with no fact, it is `hot_take`. If it draws no conclusion and just describes something that just happened, it is `reaction`.
 
 
 ---
@@ -96,21 +107,16 @@ torch:  2.14.1+cpu
 
 **Where the posts came from:** r/stocks
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
+**How I labelled them:** 
+<!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-I labelled each post by hand using the working definitions below. These are a
-draft; if I adjust them after labelling, I will note the change here.
+I first labelled about 20–30 posts by hand, cold, to work out the definitions below. I then had an AI pre-label the whole set using those definitions, and I read every post and corrected the labels one by one. The definitions below are a draft; if I adjust them after labelling, I will note the change here.
 
-- `analysis`: makes an argument whose conclusion is supported by a specific,
-  checkable fact. The fact must be concrete enough to verify (for example,
-  "the company's revenue grew this quarter"), but it does not need to include a
-  number or a cited source.
+- `analysis`: makes an argument whose conclusion is supported by a specific, checkable fact. The fact must be concrete enough to verify (for example, "the company's revenue grew this quarter"), but it does not need to include a number or a cited source. The fact must still hold up after removing anecdotes ("I know people", "anecdotally") from the reasoning. If the author leans on a vague reference ("strong fundamentals", "numbers look good", "other metrics") as a reason, it is not checkable.
+
 - `hot_take`: a confident claim with no support offered.
-- `reaction`: an immediate response, observation, or question about something
-  that just happened. Because many posts are very short, a post that clearly
-  ties to a specific moment, price, or event counts as `reaction` when it only
-  states it and draws no conclusion.
+- `reaction`: an immediate response, observation, or question about something that just happened. Because many posts are very short, a post that clearly ties to a specific moment, price, or event counts as `reaction` when it only states it and draws no conclusion.
 
 Decision order:
 1. Conclusion plus a specific, checkable fact -> `analysis`
@@ -122,10 +128,10 @@ Decision order:
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| analysis | 50 | 24.6% |
+| hot_take | 107 | 52.7% |
+| reaction | 46 | 22.7% |
+| **Total** | 203 | 100% |
 
 **Three hard cases**
 
@@ -134,24 +140,39 @@ Decision order:
 
 **1.**
 > *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+
+AVGO is the only choice here and based on forward PE and other metrics, an undervalued gem. TSLA just toxic  
+
+> *Could have been:* analysis
+
+> *I chose hot_take, because:*
+Mentions forward PE but gives no supporting figure. (Forward PE doesn’t count as checkable, since estimates may differ across institutions.)
 
 **2.**
 > *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+
+I think the market is treating this as a growth scare that buys cuts, which is why futures jumped. What I watch is the revisions: July flipped negative and August got cut hard. If the next couple reports keep that pattern, the soft-landing story gets rewritten as labor already weakening while stocks sit at highs. One print is noise; the revision trail is the tell.
+
+> *Could have been:* analysis
+
+> *I chose hot_take, because:*
+The revised data is verifiable, but the interpretation is a personal judgment.
 
 **3.**
 > *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+
+Twilio $TWLO is set to join the S&P 500 on October 6. What an incredible journey for this company
+https://finance.yahoo.com/markets/stocks/articles/twilio-join-p-500-p-222951025.html
+
+Twilio has had one of the most remarkable turnarounds and is now set to join the S&P 500. This sets the stock up for more growth ahead. The future looks bright for 2027 and beyond as tailwinds for agentic AI, and their own AI products released this year come to fruition. The stock is now up 105% YTD and 184% in 1 year and has reached a $46B market cap. Twilio has bought back billions of dollars of shares over the past 3 years and is now generating strong free cash flow.
+
+The future looks bright!
+
+> *Could have been:* hot_take
+
+> *I chose reaction, because:*
+Overall, it expresses optimism about the inclusion in the S&P 500.
+
 
 ---
 
