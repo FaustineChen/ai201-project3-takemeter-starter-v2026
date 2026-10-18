@@ -111,7 +111,7 @@ If the post names a fact concrete enough to check (e.g. "<20x forward EV/EBITDA"
 <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
-I first labelled about 20–30 posts by hand, cold, to work out the definitions below. I then had an AI pre-label the whole set using those definitions, and I read every post and corrected the labels one by one. The definitions below are a draft; if I adjust them after labelling, I will note the change here.
+I first labelled about 20–30 posts by hand, cold, to work out the definitions below. I then had an AI pre-label the whole set using those definitions, and I read every post and corrected the labels one by one.
 
 - `analysis`: makes an argument whose conclusion is supported by a specific, checkable fact. The fact must be concrete enough to verify (for example, "the company's revenue grew this quarter"), but it does not need to include a number or a cited source. The fact must still hold up after removing anecdotes ("I know people", "anecdotally") from the reasoning. If the author leans on a vague reference ("strong fundamentals", "numbers look good", "other metrics") as a reason, it is not checkable.
 
@@ -139,8 +139,7 @@ Decision order:
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
-
+> *The post:*  
 AVGO is the only choice here and based on forward PE and other metrics, an undervalued gem. TSLA just toxic  
 
 > *Could have been:* analysis
@@ -149,8 +148,7 @@ AVGO is the only choice here and based on forward PE and other metrics, an under
 Mentions forward PE but gives no supporting figure. (Forward PE doesn’t count as checkable, since estimates may differ across institutions.)
 
 **2.**
-> *The post:*
-
+> *The post:*  
 I think the market is treating this as a growth scare that buys cuts, which is why futures jumped. What I watch is the revisions: July flipped negative and August got cut hard. If the next couple reports keep that pattern, the soft-landing story gets rewritten as labor already weakening while stocks sit at highs. One print is noise; the revision trail is the tell.
 
 > *Could have been:* analysis
@@ -159,13 +157,10 @@ I think the market is treating this as a growth scare that buys cuts, which is w
 The revised data is verifiable, but the interpretation is a personal judgment.
 
 **3.**
-> *The post:*
-
+> *The post:*  
 Twilio $TWLO is set to join the S&P 500 on October 6. What an incredible journey for this company
 https://finance.yahoo.com/markets/stocks/articles/twilio-join-p-500-p-222951025.html
-
 Twilio has had one of the most remarkable turnarounds and is now set to join the S&P 500. This sets the stock up for more growth ahead. The future looks bright for 2027 and beyond as tailwinds for agentic AI, and their own AI products released this year come to fruition. The stock is now up 105% YTD and 184% in 1 year and has reached a $46B market cap. Twilio has bought back billions of dollars of shares over the past 3 years and is now generating strong free cash flow.
-
 The future looks bright!
 
 > *Could have been:* hot_take
@@ -183,12 +178,12 @@ Overall, it expresses optimism about the inclusion in the S&P 500.
 **Base model:** "distilbert-base-uncased"
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
-EPOCHS = 10
-LEARNING_RATE = 2e-5
-BATCH_SIZE = 16
-MAX_LENGTH = 256
+EPOCHS = 10  
+LEARNING_RATE = 2e-5  
+BATCH_SIZE = 16  
+MAX_LENGTH = 256  
 
-**Anything I changed from the defaults, and why:**
+**Anything I changed from the defaults, and why:**  
 **Max length: 128 → 256**
 In the training set, 55.9% of `analysis` posts (19 of 34) were longer than 128 tokens, compared with 13.3% of `hot_take` posts (10 of 75) and 18.8% of `reaction` posts (6 of 32). The median `analysis` post is 154 tokens, so the evidence behind an argument was often cut off. I chose 256 rather than 512 because `padding="max_length"` makes compute grow with the limit, and 512 would only add the few longest posts (the longest are 690 to 765 tokens). I did not compare 128 and 256 directly, so this choice rests on the truncation counts, not on a score difference.
 
@@ -226,7 +221,7 @@ of next unit's variance. -->
 - *What came back:* Pre-labels with a short note for each post, plus a list of hard cases with the competing label and the reason each was hard. While we discussed the `analysis` boundary, it suggested a general deletion test: remove every unverifiable statement and see whether the checkable facts still support the conclusion (supported → `analysis`, not supported → `hot_take`).
 - *What I changed:* I did not adopt the general deletion test. I rewrote the `analysis` definition so that the fact must be concrete enough to verify but does not need a number or a cited source, and it must still hold after removing anecdotes ("I know people", "anecdotally"). A vague reference such as "strong fundamentals", "numbers look good" or "other metrics" used as a reason does not count as checkable, so only anecdotes are deleted before judging.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** An AI pre-labelled the full set using my definitions, and I read and checked every post myself. I changed about five labels, and in the same pass I rewrote the `analysis` definition (Moment 2), so the definitions above are the revised version.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
