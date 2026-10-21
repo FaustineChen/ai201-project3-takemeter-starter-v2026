@@ -1,0 +1,189 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 31,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": false,
+  "scores": {
+    "n": 31,
+    "accuracy": 0.6451612903225806,
+    "f1_macro": 0.5419103313840156,
+    "per_label": {
+      "analysis": {
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.2222222222222222,
+        "support": 8
+      },
+      "hot_take": {
+        "precision": 0.6363636363636364,
+        "recall": 0.875,
+        "f1": 0.7368421052631579,
+        "support": 16
+      },
+      "reaction": {
+        "precision": 0.625,
+        "recall": 0.7142857142857143,
+        "f1": 0.6666666666666666,
+        "support": 7
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "SMCI is a cheap stock compared to DELL & HPE. It will catch up soon IMHO.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Supply will turn up, one way or another. Commodity hardware prices at this level is a threat to margins of the tech giants. They will not allow these prices to continue and they have the cash to ensure it doesnt.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Market breadth is at its lowest level since the 2000 Dot Com bubble. About 60% of the stocks in the S&P 500 are down more than 20% from their all-time highs. I think there's value in buying the equal-weight index (RSP) over the market-cap weighted index at this point.",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "That will likely cause a broad market selloff.\n\nWhile on the surface it would seem the market should celebrate a hold, and it may happen initially, when the news sinks in they\u2019ll start to question Warsh\u2019s competence.",
+      "gold": "hot_take",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Yeah both Oracle and OpenAI are the biggest threat to the AI trade which can have a ripple effect and bring everything down. Need to keep an eye on both of them for further hints at whether there is a real problem that is going to cascade or a way for both to mitigate the risk.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "TSMC is the Hormuz Strait of semiconductors. I moved 30% of my portfolio over today.\nYesterday I moved 30% of my portfolio to Taiwan Semiconductor, and I plan to hold it for 3-5 years. I am convinced this stock is under priced relative to other megacap stocks, for a few key reasons. \nFirst, and most importantly, the geopolitical risk from China is overweighted, and currently suppresses TSM\u2019s valuation in a meaningful way. TSM is the Hormuz strait of semiconductors. China has postured about Taiwan since the 1970s. For 50 years now, they\u2019ve done nothing. I am not convinced China can mess with TSM (Taiwan more generally) in a way that could force the stock to drop a significant amount (50%). TSM\u2019s global integration means that a lot of players are relying on Taiwan. It would be geopolitical suicide for China, who also rely on TSM\u2019s chips. TSM is also diversifying locations with plants in Arizona and Europe, which are expected to be completed in the next 5 years.\n\nSecond, TSM\u2019s MOAT is greater than any other company in the world. TSM manufactures around 90% of the world's advanced nodes. They have decades of accumulated process knowledge that even well-funded competitors with government backing have been unable to replicate, such as Intel, who is 2-3 generations behind TSM. On top of what they\u2019ve already achieved, they are also investing ~$40 billion in annual capital expenditure, with approximately $6 billion dedicated to R&D.  What this has led to is generating a higher portion of usable wafers, which no other manufacturer is capable of. With so much invested in RD, and their partnerships working with NVDA and Google to create these chips, they will continue to be at the bleeding edge for years to come.\n\nThird, and related to the second point, TSM is the backbone of the AI industry. NVIDIA, Google, AMD, and most major competitors are all paying TSM to produce their chips. There may be winners and losers, but TSM owns the sport. Apple alone generates ~25% of TSM\u2019s revenue. They\u2019re not going back to intel, they can\u2019t go in house, and Apple itself is more dominant than ever. After moving to their M chips, Apple\u2019s thesis paid off extraordinarily. I wouldn\u2019t be surprised if other players follow.\n\nFourth, relative to other Mega cap stocks (MSFT, APPLE, NVDA), the potential upside for TSM is still huge. They have the 6th largest market cap at around 2.0 Trillion. With NVDA worth ~5.2 trillion, it\u2019s easier to see TSCM 3x than it is to see NVDA go to 15 trillion. The TTM PE of ~34x dropping to a forward PE of ~22x implies analysts expect ~35% earnings growth in the next year alone. For a $2 trillion company that's extraordinary.\n\nFifth, TSM has not yet attracted significant retail investor attention relative to its fundamental quality. While dell and sandisk have gone parabolic, TSM has a lot of room to go vertical in the short term, and while it's up 2x in the last year, this treatment hasn't happened yet.",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Sharp decline in murban crude, but why?",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Twilio $TWLO is set to join the S&P 500 on October 6. What an incredible journey for this company\nhttps://finance.yahoo.com/markets/stocks/articles/twilio-join-p-500-p-222951025.html\n\nTwilio has had one of the most remarkable turnarounds and is now set to join the S&P 500. This sets the stock up for more growth ahead. The future looks bright for 2027 and beyond as tailwinds for agentic AI, and their own AI products released this year come to fruition. The stock is now up 105% YTD and 184% in 1 year and has reached a $46B market cap. Twilio has bought back billions of dollars of shares over the past 3 years and is now generating strong free cash flow.\n\nThe future looks bright!",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Up yesterday down today. Everything I sold puts on is getting whacked and so are my longs.",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Papa John down 17% after a dividend cut. Time to consider a slice of $PZZA?",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "Apple is pretty overpriced right now\nLook at this:\n\nI know Apple has become a safe haven against AI akin to Walmart or Coca Cola, but the valuation is nasty right now. At 342 dollars per share;\n\nA PE of 39 and a forward PE of 37 does not reflect their 8% EPS growth. It's not a growth company.\n\nThe massive upgrade cycle from the iPhone 17 - it was really popular. It pulled forward demand, now fewer consumers will be looking to buy a new phone anytime soon since they have the 17.\n\nSkyrocketing AI chip demand has sent memory prices soaring. Apple's gross margin suffers, down from over 49% to 46.5%. This made them raise prices:\n\nA $100 price hike on the iPhone 18 Pro to offset those memory costs backfired, forcing Apple to slash production orders by up to 20%. https://finance.yahoo.com/technology/ai/articles/apple-cuts-iphone-18-pro-181700565.html\n\nDelaying the cheaper, standard iPhone 18 until next spring leaves a huge hole in the lineup for the critical holiday shopping season.\n\nPlua they're going to be stuck renting compute in the future if AI pans out.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "In a situation where companies can be nearly perfectly efficient due to automation, Operating expense will nearly vanish. If a bunch of people are out of work, they will no longer have the money to buy products at their current price levels. Thankfully, businesses can now offer products at extremely reduced prices due to the massive opex reductions, and they\u2019ll have to, because there will be no demand anymore.\n\nIncreased corporate taxes on extremely lean companies could hypothetically fund UBI. I see this as the most likely outcome of full automation.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "The best guess is anthropic is NOWHERE NEAR PROFITABLE, because if they were profitable with this level of spend, they could IPO for like 3 Trillion or something.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "SPY finally went red like last 15 minutes... after 10Y absolutely exploded following PCE today.\n\nDown only 0.2%.",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "It\u2019s already here. My coworkers say they watch more AI generated shows than real show at this point. They get fed clips of shows on Insta and TikTok that are targeted towards them, and they follow the link to shady sites. One coworker was trying to justify that the writing was really good and was exactly the type of show he was looking for - an apocalyptic series that deals with time travel. Another coworker is watching a romance about an overweight girl whose husband divorces her so she becomes a nanny for a wealthy single dad, and she ends up losing a lot of weight and has to choose between the two dudes. They both said the same thing, the episodes are short (about 10min long) but incredibly gripping and the people are beautiful. And there are different versions that race swap depending on your preferences.",
+      "gold": "hot_take",
+      "predicted": "reaction"
+    },
+    {
+      "text": "The cooler PCE print is definitely constructive for equities, but I think the \u201cfront-load deeper cuts\u201d conclusion is a stretch. Core PCE held at 3.0% YoY and headline PCE was 3.4%, while consumer spending was still pretty strong, so this looks more like reduced pressure for another hike than a clear signal for aggressive easing.\n\nThat matters because long-duration growth and small caps usually want lower yields, not just slightly softer inflation. If bond yields stay elevated, the valuation relief could be limited even with better inflation data.\n\nSo I wouldn\u2019t read one print as \u201csoft landing confirmed.\u201d I\u2019d treat it as one positive data point and still watch yields, labor data, and whether inflation keeps moving lower from here.",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "True inflation is the consumer looking mortgage rates, monthly rent in their city, high velocity spend of gas and groceries, and household stables. \n\nAll this stuff is way higher some are 100 percent inflation year over year for some foods. Beef prices are insane",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "defensive stocks aren\u2019t automatically a hedge if you\u2019re paying a huge premium for them. you can diversify away from tech and still overpay",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "KOSPI down -5% again. The previous 3 days might have just been a bear market rally lol.",
+      "gold": "reaction",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Microsoft is now cheaper than the April 2025 Tariff crash, yet TTM EPS is up 30%. Huge bargain\nI had previously sold off Microsoft at $460, but I think they are probably one of the biggest bargains in big tech right now:\n\nVery favorable exposure to OpenAI(20% revenue sharing agreement and rights to their models). Even if OpenAI keeps burning cash, they are benefitting from their top line revenue growth. When the revenue share agreement expires, OpenAI will likely achieve profitability, at which point Microsoft's ~25% OpenAI stake will be worth a lot.\n\nVery strong Azure cloud growth\n\nEnterprise software remains strong.\n\nDespite the initial flop of Copilot, it's been improving a lot in recent months. Anecdotally, I know of a lot of people across a wide variety of professions that have started using it and are satisfied with the results.\n\nThey are beginning to roll out custom AI chips to compete with Nvidia.\n\nCapex is well balanced, IMO. Not excessively aggressive like Google or Meta, but still significant enough to maintain growth while avoiding excessive risk. They are saving enough free cash flow to cover dividend and a small amount of buybacks without relying on Debt.\n\nShift from fixed cost billing to usage based billing on their AI products will likely result in substantial revenue growth.\n\nTrading at less than 20x forward P/E despite 30% annual EPS growth.\n\nI can easily see MSFT doubling in value in 1-2 years with how cheap they are right now.",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "In my opinion, when people say just buy and hold and that frequent trading rarely works, it's less to do with nuances in taxes and mathematical percentages and more that a rando retail is going to very likely just plain suck at trading.\n\nIt looks so easy and tempting when looking at a graph, it looks like you can consistently buy low and sell high and do better than just buy and hold.\n\nBut actually try it, with real consequential sum of money on the line. A single mistake early on in losing your initial capital or missing on opportunity cost because you sold too early and the stock mooned, and add in psychological effects from stress and fomo, and you end up doing worse than just buy and hold.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Costcos profit is not impacted by tariffs, inflation or other as much as traditional sellers. They also get amazing deals due to exclusivity and Kirkland lines are a haven for profit.\n\nIt\u2019s also a retailer that gets more profitable in times of financial uncertainty due to more memberships and they occupy a niche with the hotdogs and chickens being known for losing money which makes consumers like them and trust shopping there that they won\u2019t be exploited.\n\nWalmart trades at 40x for a semi similar reason but doesn\u2019t have these other values.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "They are banning exports because there are shortages and to keep prices down, that\u2019s bullish for oil IMO because the supply situation is getting worse. If you feel it is too risky/stressful then nothing wrong with selling",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Anyone understand this after hours pump?",
+      "gold": "reaction",
+      "predicted": "reaction"
+    },
+    {
+      "text": "I think that AI Tamagotchi is going to make a lot of money but I also see lawsuits in ten years from parents saying their kids developed a parasocial relationship with it.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Nuclear stocks had their boom 18 months ago and have been huge dogs the past year. Too expensive, too obvious, too long of lead times. There are better opportunities out there.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "CAPR: My Current Favorite Biotech\nCAPR: A Biotech with Enormous Potential in 2026\n\nThis isn\u2019t financial advice, just my own DD. Disclaimer: I have a long position in CAPR ($10.69 average)\n\nTLDR: CAPR has FDA approval decision for their drug, Deramiocel, on August 22nd, 2026. I think their phase 3 data looks fantastic and has a strong chance of being approved. If it is approved, I predict that this stock will be trading around $60 per share (over $70 per share if given a broad label by the FDA) by the end of summer. There is potential for it to be trading over $100 per share by the end of 2026 if FDA gives a broad label including treatment of cardiomyopathy.\n\nThis is my favorite biotech stock right now. It is currently trading right around $34.42 per share ($2 billion market cap). I think this stock will almost double in value (\\\\\\~$60 per share) by mid-to-late summer this year. CAPR has developed a drug called Deramiocel which treats Duchennes Muscular Dystrophy, a serious pediatric disease that primarily affects boys.\n\n\\*\\*1. FDA Approval\\*\\*: CAPR received a rejection letter for the drug last year from the FDA, but it was based on their phase 2 study data. CAPR found significant positive effects of their drug in the phase 2 study, but it was a small sample size, so the statistical significance was found using non-parametric analysis (meaning it wasn\u2019t a normal distribution, which makes sense considering the small sample size). The FDA rejected it based on that analysis method.\n\nCAPR finished their phase 3 study in late 2025 and announced top line data from it in December 2025, which revealed they had hit their primary and secondary end points of the study. That news skyrocketed the stock from $6 per share to settling around $25 per share.\n\nThe phase 3 \u201cHope\u201d study has a rigorous study design and much larger sample size than their phase 2 study. CAPR resubmitted their application for Deramiocel to the FDA in early 2026 and the FDA accepted the application, and set a decision date for August 22nd, 2026. That is the absolute latest we will find out the decision, because there\u2019s a chance it could be announced sooner than that (due to the drug being a treatment for a serious, rare pediatric disease). CAPR held a presentation at a medical conference in early March which provided much more in depth analysis of their phase 3 results, and the data looks fantastic. Deramiocel hit not only their primary end point, but all secondary endpoints.\n\nWhen CAPR received the CRL last year, there were no CMC issues mentioned in the CRL by the FDA. Therefore, I think the FDA approval odds for Deramiocel are very high (90-95% in my opinion). If the drug gets approved by the FDA, CAPR stock is going to sky rocket again, and I predict it will settle around $60 per share, and that is my conservative estimate.\n\n\\*\\*2. Patient Population\\*\\*: There are a couple more catalysts that could send it higher before the end of the year. Deramiocel was given Orphan Drug Designation by the FDA for Becker Muscular Dystrophy (a less serious case compared to DMD). If the FDA gives a broad label to Deramiocel, meaning it can be used to also treat BMD, then that will be a big increase in patient population for the drug. There are about 15,000 people with DMD in the US, with 350-400 new patients diagnosed each year. There are about 5,000 people in the USA with Becker MD (60-120 new patients each year). If Deramiocel is given a broad label to treat even cardiomyopathy, then that be a massive increase in potential patient population. My more aggressive prediction is that CAPR could potentially hit \\\\\\~$100 per share before the end of 2026, if these other catalysts happen.\n\nThose patient numbers are just for the US. CAPR has said they will look to get EU approval after they get approval in the US. There are 25,000-30,000 people with DMD in the EU. There are 8,000-12,000 people with Becker MD in the EU.\n\n\\*\\*3. Deramiocel Production Capability\\*\\*: CAPR has a production facility in San Diego, CA. They are currently able to produce enough Deramiocel to treat 500 patients each year. However, their facility has additional clean rooms to expand production capabilities. The expansion is supposed to be completed in late 2027. After expansion, CAPR will be able to produce enough Deramiocel to treat 3,000 patients each year. They are also currently stockpiling Deramiocel as they await the upcoming FDA decision. The rumor (from a StockTwits user named LineBacker04, who has done extensive DD on CAPR) is that CAPR will have enough Deramiocel to treat an extra 300-350 patients this year. CAPR has not said how much Deramiocel will cost, but their only DMD drug competitor, which is developed by SRPT, costs $3 million per patient. That SRPT drug, Elevidys, has toxicity issues and the drug has a warning label. If CAPR charged $3 million (I don\u2019t think they\u2019ll charge that high) for Deramiocel, then they already have the potential to make $1.5 billion worth of Deramiocel, and $9 billion by the end of 2027. If they charge $1 million for it, then they can currently produce $500 million already, and $3 billion by end of 2027.\n\n\\*\\*4. CAPR Financials & FDA Approval Impact:\\*\\* CAPR is that they are good on cash through 2027, so they won\u2019t be making offerings/diluting any time soon if at all. They have over $300 million cash on hand. They have about $14.5 million in debt.\n\nIf CAPR receives FDA approval, I don\u2019t think it will be a \u201csell the news\u201d situation either, for a couple reasons. First, there is a fairly high amount of shorted shares of CAPR right now (over 19%), which could cause a short squeeze if approved. Second, CAPR will most likely receive a PRV from the FDA of Deramiocel is approved, since it treats a rare, serious pediatric disease. CAPR can sell that PRV for $100-$200 million, or they could use it for their Stealth X vaccine in their pipeline (still early development for that, but research is going to ramp up for that in 2027). Third, CAPR will receive an $80 million milestone payment from Nippon for FDA approval.\n\nAll in all, I think CAPR has a high change to 2X by this summer, and potentially triple or even quadruple (best case scenario) by the end of 2026.",
+      "gold": "analysis",
+      "predicted": "reaction"
+    },
+    {
+      "text": "When 2026 started the market was expecting 2-3 rate cuts, WTI was $57 a barrel, gasoline was $2.89 nationally, and diesel was $3.52.\n\nNow we're expecting 2-3 rate hikes this year with more to come next year, WTI is $92, gasoline is $4.47 a gallon nationally, and diesel is $6.51, all while crisis that caused energy prices to soar is not only unresolved but has gotten worse, with Saudi oil facilities targeted daily, and the market is checks notes up ~15% ytd?\n\nFascinating...",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "Prices will come down right after the election. Trust me bro",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "I buy a ton of Nike products but also have been shorting Nike for the past couple of years. As a consumer, it has been great as many of the products that would have had massive demand several years ago, are consistently selling for under retail. I think Nike will turn it around eventually but there has been nothing that I've seen as a consumer that indicates to me that Nike has made any progress.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "FSLR, solar has been getting absolutely demolished the past few months but this company is highly profitable, with a single digit forward pe, no debt, and US assembly lines.\n\nSolar and other alternative energy sources should benefit from the Hormuz crisis in the medium to longterm too",
+      "gold": "analysis",
+      "predicted": "hot_take"
+    }
+  ]
+}

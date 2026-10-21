@@ -237,14 +237,18 @@ of next unit's variance. -->
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.645 | 0.839 | +0.194 |
+| Macro F1 | 0.542 | 0.788 | +0.246 |
+| F1 — `analysis` | 0.222 | 0.875 | +0.653 |
+| F1 — `hot_take` | 0.737 | 0.889 | +0.152 |
+| F1 — `reaction` | 0.667 | 0.600 | -0.067 |
+
+**Note:** This baseline was run without label_definitions.txt (bare label names only). With my definitions it scored accuracy 0.258 / macro F1 0.200; without them, 0.645 / 0.542. I report the stronger run as the baseline.
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+I predict the trained model will beat the baseline most on `analysis`, because the zero-shot baseline barely recognizes it (F1 0.222) while fine-tuning can learn that long, data-heavy posts are analysis.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
