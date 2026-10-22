@@ -88,14 +88,16 @@ This is the boundary my own labels were least stable on: the roughly 5 posts tha
 
 ---
 
-## 4. Consistency
+## 4. Beats the baseline on accuracy
 
 <!-- Your criterion. -->
-My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30).
-
+Accuracy on the held-out test set with my written definitions beats the baseline (same labels, no definitions) in each of the three seedsㄡ
 
 **Why this target:**
-The staff set is labelled under the staff taxonomy, and my own `analysis` definition has extra rules that the staff rules may not share. Chance agreement on three labels is about 33%, and 70% means my rules and the staff rules mostly line up while leaving room for the posts that were chosen because they are ambiguous. If I fall below it, that points to inconsistent labelling on my side rather than a model problem, which is what I need to know when diagnosing a missed model criterion.
+If the definitions do not beat the baseline, the criterion is missed, and that outcome is informative: it would mean my definitions added nothing beyond the labels.
+
+**Why I change  to this target:**
+I replaced the original criterion, agreement with the staff labels on the 30 shared posts of at least 70%, because the test I actually ran has no connection to the staff labels: it is three seeds on my own data. The 30-post comparison measures how consistently two people apply the rules, not whether my definitions help a model.
 
 
 ---

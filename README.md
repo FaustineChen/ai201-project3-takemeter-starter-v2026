@@ -276,7 +276,7 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
 | 1. Overall accuracy | 0.7 | PASS | PASS | PASS | MET |
 | 2. Per-label F1 | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | 3/3 | 2/3 | 2/3 | MISS |
 | 3.Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16) | PASS | PASS | PASS | MET |
-| 4. Consistency | My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30). |  |  |  |  |
+| 4. Beats the baseline on accuracy | 0.66 | PASS | PASS | PASS | MET |
 | 5. Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third | PASS | PASS | PASS | MET |
 
 ### Confusion matrix
@@ -309,7 +309,7 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
 | 1 | Overall accuracy | >=0.7 | MET | accuracy are 0.84, 0.71, 0.74, all larger than 0.7 |
 | 2 | Per-label performance | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | MISS | `reaction` label's F1 (seed 7 and 2024) is lower than 0.55, not all three labels met the criteria|
 | 3 | Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` and at most 20% of true `hot_take` posts are predicted as `analysis` | PASS | true `analysis` posts are predicted as `hot_take` is 12.5% < 30%, and true `hot_take` posts are predicted as `analysis` is 0% < 20% |
-| 4 | Consistency | My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30). |  |  |
+| 4 | Beats the baseline on accuracy | 0.66 | MET | accuracy are 0.84, 0.71, 0.74, all larger than 0.66 |
 | 5 | Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third | MET | difference are 0.3, 0.3, 0.4 seperately, all >= 0.15 |
 
 **Diagnoses**
@@ -322,7 +322,15 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
      ⚠️ Use your agreement report as evidence. It is the only instrument you
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
+Criterion 2 (per-label F1) — MISSED. 
+Cause: reaction is under-represented, and my own labelling of it is the least stable.
+`reaction` F1 was 0.600 / 0.222 / 0.444, so only seed 42 reached 0.55. analysis and `hot_take` were fine (hot_take 0.789 to 0.889).
+- (too few examples): reaction has 32 training posts against 75 hot_take, and only 7 test posts, so one post moves F1 by a lot. This explains the spread across seeds.
+- (direction): In seed 42, reaction has precision 1.0 but recall 0.43. 3 of 7 were called hot_take and 1 analysis, and none went the other way. The model only recognises the typical form of reaction and sends the rest to hot_take.
+- (agreement report): Both of my disagreements with staff involved reaction. #1 was a rule I applied loosely (pile a). #2 was a gap in the definitions about whether an implied general point makes a post a hot_take (pile b).
+- So the reaction boundary is where I was inconsistent, and the same inconsistency may be in my 200 labels.
 
+Revising my assumption: I expected the `analysis`/`hot_take` boundary to be the hard one, but in seed 42 it was the cleanest (1 and 0 errors). The weak spot was `reaction`, which I had treated as the easy class because it looks distinctive.
 
 
 ---
