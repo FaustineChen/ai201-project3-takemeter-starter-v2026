@@ -275,9 +275,9 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
 |---|---|---|---|---|---|
 | 1. Overall accuracy | 0.7 | PASS | PASS | PASS | MET |
 | 2. Per-label F1 | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | 3/3 | 2/3 | 2/3 | MISS |
-| 3.Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16) |  |  |  |  |
+| 3.Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16) | PASS | PASS | PASS | MET |
 | 4. Consistency | My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30). |  |  |  |  |
-| 5. Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third |  |  |  |  |
+| 5. Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third | PASS | PASS | PASS | MET |
 
 ### Confusion matrix
 
@@ -306,11 +306,11 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | >=0.7 | MET | accuracy are 0.84, 0.71, 0.74, all larger than 0.7 |
+| 2 | Per-label performance | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | MISS | `reaction` label's F1 (seed 7 and 2024) is lower than 0.55, not all three labels met the criteria|
+| 3 | Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` and at most 20% of true `hot_take` posts are predicted as `analysis` | PASS | true `analysis` posts are predicted as `hot_take` is 12.5% < 30%, and true `hot_take` posts are predicted as `analysis` is 0% < 20% |
+| 4 | Consistency | My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30). |  |  |
+| 5 | Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third | MET | difference are 0.3, 0.3, 0.4 seperately, all >= 0.15 |
 
 **Diagnoses**
 
@@ -335,7 +335,7 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** _28_ / 30 = _93_%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -358,26 +358,25 @@ Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the 
      what you did across your own 200. -->
 
 **1.**
-> *The post:*
+> *The post:* "I tracked sleep against session quality for eleven weeks. Under seven hours the next day's intervals were 6-8 seconds per mile slower, every time bar one. Small sample, one runner, but it's consistent enough that I've stopped scheduling hard days after late shifts."
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `analysis`, `reaction`
 >
-> *My call, and why:*
->
-> *Which pile:*
+> *My call, and why:* The 6-8 seconds per mile gap over eleven weeks is what the conclusion rests on, and the writer flags the sample's limits, which is how someone weighing evidence writes. I read the first-person voice ("I've stopped scheduling hard days") as a personal report.
+> *Which pile:* (a). The rule covered it and I applied it loosely.
+
 
 **2.**
-> *The post:*
+> *The post:* Just realised the shoes I set every PB in this year are the ones I bought by accident in the wrong size.
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `reaction`, `hot_take`
 >
-> *My call, and why:*
+> *My call, and why:* I read it as a hot take. The post says every PB this year came in wrong-size shoes, which works as a general point that fit and shoe choice matter less than people think. The writer is making that point through irony, and "just realised" only frames how they got there. Staff read it as a personal discovery with nothing general asserted, which is also reasonable.
 >
-> *Which pile:*
-
-**What the pattern in my disagreements tells me:**
+> *Which pile:* (b). Rule 2 separates a reaction from a general assertion but does not say whether an implied general point counts.
 
 
+**What the pattern in my disagreements tells me:** Both misses were first-person posts, and in both I leaned on how the post sounded instead of the rule's test. In #1 I let the "I" voice outweigh the eleven weeks of data. In #2 the rule was silent on an implied general point, so that one is a gap in the definitions. Two of 30 is too small to find the pattern.
 
 ---
 
