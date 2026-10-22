@@ -7,4 +7,4 @@
 
 analysis: a conclusion supported by a specific, checkable fact that still holds after removing anecdotes ("I know people", "anecdotally"); if the author relies on a vague reference ("strong fundamentals", "numbers look good") as a reason, it is not analysis even if a checkable fact appears nearby
 hot_take: a confident claim with no support offered
-reaction: an immediate response, observation, or question about something that just happened, including a short post that only states a specific moment, price, or event without drawing a conclusion
+reaction: a response to something that just happened (a price move, news, an earnings result, a personal gain or loss) that reports or expresses it without drawing a general conclusion about a stock or the market. Emotion, a question about the event, or a bare statement of the moment or price all count. If the post can be restated as a claim about what will happen or what people should do, it is a hot_take instead.

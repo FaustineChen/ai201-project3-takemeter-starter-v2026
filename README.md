@@ -390,25 +390,36 @@ Revising my assumption: I expected the `analysis`/`hot_take` boundary to be the 
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** : I rewrote the reaction definition in label_definitions.txt. It now covers a response to something that just happened (a price move, news, a personal gain or loss) that does not draw a general conclusion. If a post can be restated as a prediction or advice, it is a hot_take. I then relabelled the posts that broke this rule (3 reaction posts became hot_take) and added 6 new short, clear reaction posts, bringing the file to 209 rows.
 
 **Which diagnosis pointed at it:**
+The new definition closes that gap, and the extra reaction examples address the small class size.
+
 
 ### Run Log — After
 
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.812 | 0.812 | 0.750 | 0.062 |
+| Macro F1 | 0.762 | 0.782 | 0.719 | 0.063 |
+| F1 — `analysis` | 0.875 | 0.824 | 0.667 | 0.208 |
+| F1 — `hot_take` | 0.865 | 0.857 | 0.824 | 0.041 |
+| F1 — `reaction` | 0.545 | 0.667 | 0.667 | 0.121 |
+
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | 0.7 | PASS | PASS | PASS | MET |
+| 2. Per-label F1 | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | 2/3 | 3/3 | 3/3 | MISS |
+| 3.Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16) | PASS | PASS | PASS | MET |
+| 4. Beats the baseline on accuracy | 0.66 | PASS | PASS | PASS | MET |
+| 5. Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third | PASS | FAIL | PASS | MISS |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
-
+Partly. F1 went from 0.600 / 0.222 / 0.444 to 0.545 / 0.667 / 0.667, and accuracy spread fell from 0.129 to 0.062. Criterion 2 is borderline: seed 42's reaction F1 is 0.545, which is below 0.55 strictly but rounds to 0.55, so I count it as missed by 0.005. Criterion 5 now misses (confidence gap 0.3 / 0.1 / 0.3, seed 7 is under 0.15), but each third has only about 10 posts, so one post moves the gap by 0.1. The test set is also different from before (209 rows instead of 203), so this is not a like-for-like comparison.
 
 
 ---
@@ -422,7 +433,11 @@ Revising my assumption: I expected the `analysis`/`hot_take` boundary to be the 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
-
+| true \ predicted | analysis | hot_take | reaction |
+|---|---|---|---|
+| **analysis** | 7 | 1 | 0 |
+| **hot_take** | 0 | 16 | 1 |
+| **reaction** | 1 | 3 | 3 |
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
