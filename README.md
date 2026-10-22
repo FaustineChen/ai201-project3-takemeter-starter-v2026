@@ -253,7 +253,7 @@ I predict the trained model will beat the baseline most on `analysis`, because t
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
-
+Accuracy rose from 0.645 to 0.839 and macro F1 from 0.542 to 0.788. Most of the gain came from analysis (F1 0.222 → 0.875), which matches my prediction. The one exception is reaction (0.667 → 0.600), but with only 7 test posts a difference of one or two posts moves that score a lot
 
 
 ---
@@ -263,30 +263,38 @@ I predict the trained model will beat the baseline most on `analysis`, because t
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.839 | 0.710 | 0.742 | 0.129 |
+| Macro F1 | 0.788 | 0.604 | 0.678 | 0.184 |
+| F1 — `analysis` | 0.875 | 0.800 | 0.800 | 0.075 |
+| F1 — `hot_take` | 0.889 | 0.789 | 0.789 | 0.099 |
+| F1 — `reaction` | 0.600 | 0.222 | 0.444 | 0.378 |
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | 0.7 | PASS | PASS | PASS | MET |
+| 2. Per-label F1 | at least 0.75 for `hot_take`, 0.55 for `analysis`, and 0.55 for `reaction` | 3/3 | 2/3 | 2/3 | MISS |
+| 3.Confusion matrix | at most 30% of true `analysis` posts are predicted as `hot_take` (about 2 of 7) and at most 20% of true `hot_take` posts are predicted as `analysis` (about 3 of 16) |  |  |  |  |
+| 4. Consistency | My agreement with the staff labels on the 30 shared posts is at least 70% (at least 21 of 30). |  |  |  |  |
+| 5. Confidence | accuracy on the most-confident third of predictions is at least 0.15 higher than accuracy on the least-confident third |  |  |  |  |
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+| true \ predicted | analysis | hot_take | reaction |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **analysis** | 7 | 1 | 0 |
+| **hot_take** | 0 | 16 | 0 |
+| **reaction** | 1 | 3 | 3 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
-
+3 real `reaction` posts were called `hot_take`, and none went the other way. `reaction` has precision 1.0 but recall 0.43, so the model only recognises its most typical form. I suspect this is because `reaction` posts are varied (short questions, emotional remarks, price comments) and I have few of them, so the model did not see enough variety. With only 7 test posts this is a hint, not a firm conclusion.
 
 
 ---
