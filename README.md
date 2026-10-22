@@ -233,6 +233,13 @@ of next unit's variance. -->
 - *What came back:* A rewritten `reaction` definition and a list of posts that broke it, plus a suggestion to add more reaction examples.
 - *What I changed:* I kept the idea of the rewrite but wrote the final wording myself. I read each flagged post and relabelled 3 from `reaction` to `hot_take`, then wrote 6 new short, clear reaction posts myself instead of using generated ones, bringing the file to 209 rows.
 
+**Moment 2**
+
+- *What I asked for:* Which pile my disagreement on #2 (the wrong-size shoes post) belongs in. I labeled it `hot_take` because "every PB this year in wrong-size shoes" implies that shoe fit matters less than people think.
+- *What came back:* Claude kept supporting `reaction`. It said the post only reports something about my own shoes, and that "asserts" in rule 2 means a general claim, not an implied one.
+- *What I changed:* I kept my `hot_take` label and put the post in pile (b). The discussion showed that rule 2 does not say whether an implied general point counts, so the disagreement comes from a gap in the definitions, not from me applying the rule loosely.
+
+
 ---
 
 ## Baseline vs. Trained
