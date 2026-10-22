@@ -227,6 +227,11 @@ of next unit's variance. -->
 
      Don't fill these in during unit 5.
      ═══════════════════════════════════════════════════════════════════ -->
+**Moment 1**
+
+- *What I asked for:* I asked how to rewrite the `reaction` definition so it separates cleanly from `hot_take`, and which of my existing posts would break the new rule.
+- *What came back:* A rewritten `reaction` definition and a list of posts that broke it, plus a suggestion to add more reaction examples.
+- *What I changed:* I kept the idea of the rewrite but wrote the final wording myself. I read each flagged post and relabelled 3 from `reaction` to `hot_take`, then wrote 6 new short, clear reaction posts myself instead of using generated ones, bringing the file to 209 rows.
 
 ---
 
@@ -427,17 +432,20 @@ Partly. F1 went from 0.600 / 0.222 / 0.444 to 0.545 / 0.667 / 0.667, and accurac
 ## What's Still Broken
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
-
+Criterion 2 is borderline (seed 42 reaction F1 is 0.545 against 0.55) and Criterion 5 is missed (seed 7 confidence gap is 0.1). I stopped because the test split holds only 7 reaction posts and about 10 posts per confidence third, so a single post moves these numbers more than any further label change would. 
 
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
+
 | true \ predicted | analysis | hot_take | reaction |
 |---|---|---|---|
 | **analysis** | 7 | 1 | 0 |
-| **hot_take** | 0 | 16 | 1 |
-| **reaction** | 1 | 3 | 3 |
+| **hot_take** | 1 | 15 | 1 |
+| **reaction** | 1 | 2 | 4 |
+
+In seed 7 the model still labels 2 of the 7 true reaction posts as hot_take (and 1 as analysis), catching only 4, while just 1 hot_take is called reaction. So it only recognises the plainest reaction posts, and sends anything with a hint of a conclusion to hot_take. About 35 training examples are too few for it to learn that boundary reliably, or my own labelling of it is still not consistent enough.
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
